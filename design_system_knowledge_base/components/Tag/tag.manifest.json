@@ -1,0 +1,17 @@
+{
+    "componentName": "Tag",
+    "figmaNodeName": "Tags",
+    "docFile": "Tag.md",
+    "props": [
+        {
+            "name": "size",
+            "type": "'Small' | 'Regular' | 'Large'",
+            "description": "Figma variant for the component dimensions."
+        }
+    ],
+    "figmaMapping": {
+        "properties": {
+            "Size": "size"
+        }
+    }
+}

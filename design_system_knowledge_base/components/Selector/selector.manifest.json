@@ -1,0 +1,23 @@
+{
+  "componentName": "Selector",
+  "figmaNodeName": "Selector",
+  "docFile": "Selector.md",
+  "props": [
+    {
+      "name": "options",
+      "type": "'One' | 'Two' | 'Three' | 'Four'",
+      "description": "Determines the number of segments in the selector, corresponds to the 'Options' property in Figma."
+    },
+    {
+      "name": "label",
+      "type": "boolean",
+      "description": "Whether to display the label text above the selector, corresponds to the 'Label' property in Figma."
+    }
+  ],
+  "figmaMapping": {
+    "properties": {
+      "Options": "options",
+      "Label": "label"
+    }
+  }
+}

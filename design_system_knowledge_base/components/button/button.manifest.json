@@ -1,0 +1,57 @@
+{
+    "componentName": "Button",
+    "figmaNodeName": "Button",
+    "docFile": "Button.md",
+    "props": [
+      {
+        "name": "emphasis",
+        "type": "'Primary' | 'Secondary' | 'Tertiary'",
+        "description": "The visual emphasis of the button, corresponds to the 'Emphasis' property in Figma."
+      },
+      {
+        "name": "size",
+        "type": "'Regular' | 'Small' | 'Extra Small'",
+        "description": "The size of the button, corresponds to the 'Size' property in Figma."
+      },
+      {
+        "name": "iconLeft",
+        "type": "boolean",
+        "description": "Corresponds to the 'Icon-left' property in Figma."
+      },
+      {
+        "name": "iconRight",
+        "type": "boolean",
+        "description": "Corresponds to the 'Icon-right' property in Figma."
+      },
+      {
+        "name": "state",
+        "type": "'Disabled' | 'Normal' | 'Hover' | 'Focus' | 'Active'",
+        "description": "The interactive state of the button, corresponds to the 'State' property in Figma."
+      },
+      {
+        "name": "deletable",
+        "type": "boolean",
+        "description": "Whether the button has a deletable state/icon, corresponds to the 'Deletable' property in Figma."
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "description": "The text content displayed inside the button."
+      }
+    ],
+    "figmaMapping": {
+      "text": {
+        "Button Text": "label"
+      },
+      "properties": {
+        "Emphasis": "emphasis",
+        "Size": "size",
+        "Icon-left": "iconLeft",
+        "Icon-right": "iconRight",
+        "State": "state",
+        "Deletable": "deletable"
+      }
+    }
+  }
+  
+  

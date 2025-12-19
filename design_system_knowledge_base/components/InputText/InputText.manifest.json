@@ -1,0 +1,33 @@
+{
+    "componentName": "InputText",
+    "figmaNodeName": "InputText",
+    "docFile": "InputText.md",
+    "props": [
+        {
+            "name": "label",
+            "type": "string",
+            "description": "The text label displayed above the input field."
+        },
+        {
+            "name": "state",
+            "type": "'Enabled' | 'Hover' | 'Focus' | 'Disabled' | 'ViewOnly' | 'Filled' | 'Error'",
+            "description": "The interactive state of the InputText, corresponds to the 'State' property in Figma."
+        },
+        {
+            "name": "Required",
+            "type": "boolean",
+            "description": "Whether the InputText is a mandatory field or not"
+        },
+        {
+            "name": "placeholder",
+            "type": "string",
+            "description": "The placeholder text displayed inside the input field."
+        }
+    ],
+    "figmaMapping": {
+        "text": {
+            "Label": "label",
+            "Placeholder": "placeholder"
+        }
+    }
+}

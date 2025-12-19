@@ -1,0 +1,17 @@
+{
+    "componentName": "DatePicker",
+    "figmaNodeName": "Date Picker",
+    "docFile": "DatePicker.md",
+    "props": [
+        {
+            "name": "state",
+            "type": "'Enabled' | 'Focus' | 'Filled' | 'Active' | 'Disabled' | 'View mode'",
+            "description": "The interactive state of the input field."
+        }
+    ],
+    "figmaMapping": {
+        "properties": {
+            "State": "state"
+        }
+    }
+}

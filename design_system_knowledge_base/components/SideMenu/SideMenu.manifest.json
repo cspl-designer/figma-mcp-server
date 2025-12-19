@@ -1,0 +1,29 @@
+{
+  "componentName": "SideMenu",
+  "figmaNodeName": "SideMenu",
+  "docFile": "SideMenu.md",
+  "props": [
+    {
+      "name": "type",
+      "type": "'menu' | 'sub-menu'",
+      "description": "The type of the menu item, corresponds to the 'Type' property in Figma."
+    },
+    {
+      "name": "hasSubMenu",
+      "type": "boolean",
+      "description": "Whether the menu item has a nested sub-menu, corresponds to the 'has sub-menu' property in Figma."
+    },
+    {
+      "name": "status",
+      "type": "'Enabled' | 'Hover' | 'Active' | 'Disabled' | 'Focus' | 'Error' | 'Warning' | 'Success'",
+      "description": "The visual state of the menu item, corresponds to the 'Status' property in Figma."
+    }
+  ],
+  "figmaMapping": {
+    "properties": {
+      "Type": "type",
+      "has sub-menu": "hasSubMenu",
+      "Status": "status"
+    }
+  }
+}

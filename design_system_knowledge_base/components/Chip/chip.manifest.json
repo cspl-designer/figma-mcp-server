@@ -1,0 +1,23 @@
+{
+    "componentName": "Chip",
+    "figmaNodeName": "Chips",
+    "docFile": "Chip.md",
+    "props": [
+        {
+            "name": "state",
+            "type": "'Disabled' | 'Enabled' | 'Active' | 'Focus'",
+            "description": "Figma variant representing the interactive state."
+        },
+        {
+            "name": "size",
+            "type": "'Small' | 'Regular'",
+            "description": "Figma variant for the component dimensions."
+        }
+    ],
+    "figmaMapping": {
+        "properties": {
+            "State": "state",
+            "Size": "size"
+        }
+    }
+}

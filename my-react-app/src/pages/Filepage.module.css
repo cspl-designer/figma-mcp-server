@@ -1,0 +1,181 @@
+.filepage_container {
+  /* Filepage */
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-32);
+  padding: var(--spacing-32);
+  background-color: var(--surfaces-background);
+  min-height: 100vh;
+}
+
+.page_title {
+  /* Files */
+  color: var(--text-text);
+  font-family: var(--titles-pagetitle-semibold-font-family);
+  font-weight: var(--titles-pagetitle-semibold-font-weight);
+  font-size: var(--titles-pagetitle-semibold-font-size);
+  line-height: var(--titles-pagetitle-semibold-line-height);
+}
+
+.search_filter_bar {
+  /* Search and Filter Bar */
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-24);
+  align-items: center;
+  /* counterAxisAlignItems: CENTER */
+}
+
+
+
+.action_buttons_group {
+  /* Action Buttons */
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-16);
+  margin-left: auto;
+  /* Pushes the group to the right */
+}
+
+.separator {
+  /* Separator */
+  height: 1px;
+  background-color: var(--borders-default-border-subtle);
+  width: 100%;
+}
+
+.content_grid {
+  /* Content */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--spacing-24);
+  padding-top: var(--spacing-24);
+}
+
+.file_card {
+  /* File Card */
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+  padding: var(--spacing-16);
+  background-color: var(--surfaces-layer-01);
+  border: 1px solid var(--borders-default-border-light);
+  border-radius: 8px;
+  /* Using raw value as no token is provided for radius */
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.card_title {
+  /* Plan Simple Regular funding... */
+  color: var(--text-text);
+  font-family: var(--bodytext-large-bold-font-family);
+  font-weight: var(--bodytext-large-bold-font-weight);
+  font-size: var(--bodytext-large-bold-font-size);
+  line-height: var(--bodytext-large-bold-line-height);
+}
+
+.metadata_row {
+  /* Metadata */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-16);
+  border-bottom: 1px solid var(--borders-default-border-subtle);
+}
+
+.metadata_item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  position: relative;
+  padding-right: var(--spacing-16);
+  /* Space for the separator line */
+}
+
+.metadata_item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: calc(var(--spacing-16) / 2);
+  /* Half the gap */
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--borders-default-border-subtle);
+}
+
+.metadata_label {
+  /* ID, Category, Type labels */
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-medium-font-family);
+  font-weight: var(--bodytext-small-medium-font-weight);
+  font-size: var(--bodytext-small-medium-font-size);
+  line-height: var(--bodytext-small-medium-line-height);
+}
+
+.metadata_value {
+  /* ID, Category, Type values */
+  color: var(--text-text);
+  font-family: var(--bodytext-regular-semibold-font-family);
+  font-weight: var(--bodytext-regular-semibold-font-weight);
+  font-size: var(--bodytext-regular-semibold-font-size);
+  line-height: var(--bodytext-regular-semibold-line-height);
+}
+
+.card_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status_indicator {
+  /* Status */
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-8);
+  align-items: center;
+}
+
+.status_bar {
+  /* Status Bar */
+  width: 4px;
+  height: 48px;
+  background-color: var(--alert-success-success-primary-background);
+  border-radius: 2px;
+}
+
+.status_text_group {
+  /* Status Text */
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.status_label {
+  /* Status label */
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-medium-font-family);
+  font-weight: var(--bodytext-small-medium-font-weight);
+  font-size: var(--bodytext-small-medium-font-size);
+  line-height: var(--bodytext-small-medium-line-height);
+}
+
+.status_value {
+  /* Active value */
+  color: var(--alert-success-success-text);
+  font-family: var(--bodytext-regular-semibold-font-family);
+  font-weight: var(--bodytext-regular-semibold-font-weight);
+  font-size: var(--bodytext-regular-semibold-font-size);
+  line-height: var(--bodytext-regular-semibold-line-height);
+}
+
+.logo_text {
+  /* thomann - MUSIC IS OUR PASSION */
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-extra-small-medium-font-family);
+  font-weight: var(--bodytext-extra-small-medium-font-weight);
+  font-size: var(--bodytext-extra-small-medium-font-size);
+  line-height: var(--bodytext-extra-small-medium-line-height);
+}

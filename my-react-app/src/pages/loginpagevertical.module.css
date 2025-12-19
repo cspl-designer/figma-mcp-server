@@ -1,0 +1,83 @@
+.login_page_container {
+  /* loginpagevertical (Root) */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.branding_panel {
+  /* Branding Panel */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 532px; /* Fixed width from Figma */
+  background-color: var(--brand-background-primary-background);
+  /* Padding 320px top/bottom, 120px left/right */
+  padding: 320px var(--spacing-120);
+  text-align: center;
+}
+
+.welcome_text {
+  /* Welcome Text */
+  color: var(--text-text-on-color);
+  font-family: var(--headers-h1-font-family);
+  font-weight: var(--headers-h1-font-weight);
+  font-size: var(--headers-h1-font-size);
+  line-height: var(--headers-h1-line-height);
+  margin-bottom: var(--spacing-16); /* Added margin to separate from the text below, as itemSpacing is not defined for these two text nodes */
+}
+
+.portal_access_text {
+  /* Portal Access Text */
+  color: var(--text-text-on-color);
+  font-family: var(--bodytext-large-semibold-font-family);
+  font-weight: var(--bodytext-large-semibold-font-weight);
+  font-size: var(--bodytext-large-semibold-font-size);
+  line-height: var(--bodytext-large-semibold-line-height);
+}
+
+.login_form_container {
+  /* Login Form Container */
+  display: flex;
+  flex-direction: column;
+  width: var(--spacing-908); /* 908px width */
+  background-color: var(--surfaces-background);
+  padding: var(--spacing-120);
+  gap: var(--spacing-32);
+}
+
+.login_title {
+  /* Login Title */
+  color: var(--text-text);
+  font-family: var(--titles-pagetitle-semibold-font-family);
+  font-weight: var(--titles-pagetitle-semibold-font-weight);
+  font-size: var(--titles-pagetitle-semibold-font-size);
+  line-height: var(--titles-pagetitle-semibold-line-height);
+}
+
+.form_group {
+  /* Form Group */
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+}
+
+.button_group {
+  /* Button Group */
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-16);
+  margin-top: var(--spacing-8); /* Slight separation from the form inputs */
+}
+
+.button_login {
+  /* Specific style for the primary button to ensure it takes up space if needed, though Button component handles sizing */
+  flex-grow: 1;
+}
+
+.button_cancel {
+  /* Specific style for the secondary button */
+  flex-grow: 1;
+}

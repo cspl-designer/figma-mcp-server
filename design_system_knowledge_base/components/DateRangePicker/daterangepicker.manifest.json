@@ -1,0 +1,17 @@
+{
+    "componentName": "DateRangePicker",
+    "figmaNodeName": "Date Range Picker",
+    "docFile": "DateRangePicker.md",
+    "props": [
+        {
+            "name": "state",
+            "type": "'Enabled' | 'Focusd' | 'Filled' | 'Active' | 'Disabled' | 'View mode'",
+            "description": "The interactive state of the input field."
+        }
+    ],
+    "figmaMapping": {
+        "properties": {
+            "State": "state"
+        }
+    }
+}

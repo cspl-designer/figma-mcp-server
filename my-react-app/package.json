@@ -1,0 +1,53 @@
+{
+  "name": "my-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@awesome.me/kit-2b360de4fa": "^1.0.7",
+    "@fortawesome/duotone-light-svg-icons": "^7.0.1",
+    "@fortawesome/duotone-regular-svg-icons": "^7.1.0",
+    "@fortawesome/duotone-thin-svg-icons": "^7.0.1",
+    "@fortawesome/fontawesome-svg-core": "^7.0.1",
+    "@fortawesome/free-solid-svg-icons": "^7.0.1",
+    "@fortawesome/pro-duotone-svg-icons": "^7.1.0",
+    "@fortawesome/pro-light-svg-icons": "^7.1.0",
+    "@fortawesome/pro-regular-svg-icons": "^7.1.0",
+    "@fortawesome/pro-solid-svg-icons": "^7.1.0",
+    "@fortawesome/pro-thin-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.0.2",
+    "@fortawesome/sharp-duotone-light-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-duotone-regular-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-duotone-solid-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-duotone-thin-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-light-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-regular-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-solid-svg-icons": "^7.0.1",
+    "@fortawesome/sharp-thin-svg-icons": "^7.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}

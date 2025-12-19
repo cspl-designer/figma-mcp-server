@@ -1,0 +1,40 @@
+{
+  "componentName": "Select",
+  "figmaNodeName": "Select",
+  "docFile": "Select.md",
+  "props": [
+    {
+      "name": "label",
+      "type": "boolean",
+      "description": "Whether to display the label text above the select field, corresponds to the 'Label' property in Figma."
+    },
+    {
+      "name": "state",
+      "type": "'Enabled' | 'Disabled' | 'Focus' | 'Active' | 'View mode'",
+      "description": "The visual state of the component, corresponds to the 'State' property in Figma."
+    },
+    {
+      "name": "search",
+      "type": "boolean",
+      "description": "Toggles the search input field within the dropdown, corresponds to the 'Search' property in Figma."
+    },
+    {
+      "name": "quickActions",
+      "type": "boolean",
+      "description": "Toggles the 'Select All' and 'Clear' actions, corresponds to the 'Quick actions' property in Figma."
+    },
+    {
+      "name": "placeholder",
+      "type": "string",
+      "description": "Optional placeholder text for the select field."
+    }
+  ],
+  "figmaMapping": {
+    "properties": {
+      "Label": "label",
+      "State": "state",
+      "Search": "search",
+      "Quick actions": "quickActions"
+    }
+  }
+}

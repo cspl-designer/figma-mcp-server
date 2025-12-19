@@ -1,0 +1,24 @@
+{
+    "componentName": "Avatar",
+    "figmaNodeName": "Avatar",
+    "docFile": "Avatar.md",
+    "props": [
+        {
+            "name": "size",
+            "type": "'xs' | 'sm' | 'md' | 'lg' | 'xl'",
+            "description": "The size of the avatar, mapped from Figma's verbose naming."
+        },
+        {
+            "name": "type",
+            "type": "'text' | 'image' | 'icon'",
+            "description": "Determines the content payload (initials vs image URL vs icon)."
+        }
+    ],
+    "figmaMapping": {
+        "properties": {
+            "Size": "size",
+            "Type": "type",
+            "State": "status"
+        }
+    }
+}

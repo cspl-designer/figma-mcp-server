@@ -1,0 +1,41 @@
+{
+    "componentName": "Badge",
+    "figmaNodeName": "BadgeText",
+    "docFile": "BadgeText.md",
+    "props": [
+        {
+            "name": "status",
+            "type": "'Info' | 'Success' | 'Warning' | 'Danger' | 'Normal' | 'Active'",
+            "description": "The semantic state of the badge."
+        },
+        {
+            "name": "hasIcon",
+            "type": "boolean",
+            "description": "Figma toggle to show/hide the leading icon."
+        },
+        {
+            "name": "isFilled",
+            "type": "boolean",
+            "description": "Figma toggle determining if the background style is solid or subtle."
+        },
+        {
+            "name": "size",
+            "type": "'Regular' | 'Small'",
+            "description": "Figma variant for dimensions."
+        },
+        {
+            "name": "iconStyle",
+            "type": "boolean",
+            "description": "Figma toggle 'Filled icon' - determines if the icon asset itself is filled or outlined."
+        }
+    ],
+    "figmaMapping": {
+        "properties": {
+            "State": "status",
+            "Icon": "hasIcon",
+            "Filled": "isFilled",
+            "Size": "size",
+            "Filled icon": "iconStyle"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Figma Codegen Agent",
+    "version": "1.2.0",
+    "startCommand": ["node", "server.js"]
+  }
+  
