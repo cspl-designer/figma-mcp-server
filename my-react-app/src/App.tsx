@@ -8,24 +8,19 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 //import NewLoginPage from './pages/newloginpage';   
 
-import LoginPageVerticalPage from './pages/loginpagevertical';
-import Filepage from './pages/Filepage';
-import PayrollFilePage from './pages/payrollfile';
 
-import Newloginpage from './pages/newloginpage';
 
+
+import { RecursiveTest } from './components/recursivetest/recursivetest';
+import { PageDateRange } from './components/pagedaterange/pagedaterange';
 
 function App() {
   return (
     <Router>
       <Routes>
 
-        <Route path="/login-vertical" element={<LoginPageVerticalPage />} />
-        <Route path="/file-page" element={<Filepage />} />
-        <Route path="/payroll" element={<PayrollFilePage />} />
-        <Route path="/nw-login" element={<PayrollFilePage />} />
-
-        <Route path="/newloginpage" element={<Newloginpage />} />
+        <Route path="/recursivetest" element={<RecursiveTest />} />
+        <Route path="/test" element={<PageDateRange />} />
       </Routes>
     </Router>
   );

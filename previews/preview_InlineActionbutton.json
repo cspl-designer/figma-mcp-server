@@ -1,0 +1,196 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "Inline Action button",
+  "componentName": "Inline Action button",
+  "isLibraryComponent": false,
+  "props": {
+    "status": "Enabled",
+    "type": "Delete"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "26px",
+      "height": "26px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "10px",
+      "padding": "7px 5px 7px 5px",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "backgroundColor": "var(--surfaces-background)",
+      "borderColor": "var(--borders-alert-critical-default)",
+      "borderWidth": "1px",
+      "borderRadius": "32px"
+    },
+    "typography": {
+      "fontFamily": "Font Awesome 6 Pro",
+      "fontWeight": 300,
+      "fontSize": "12px",
+      "lineHeight": "12px",
+      "color": "var(--alert-critical-critical-text)",
+      "raw": {
+        "size": 12,
+        "weight": 300
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "I376:2465;15956:16138;15956:15567",
+      "name": "trash-alt",
+      "type": "TEXT",
+      "visualSpec": {
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 300,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--alert-critical-critical-text)",
+          "raw": {
+            "size": 12,
+            "weight": 300
+          }
+        }
+      },
+      "props": {},
+      "children": [],
+      "text": "trash-alt",
+      "className": "trash_alt_23637fa1"
+    }
+  ],
+  "_inferred_content": "trash-alt",
+  "_strategy": "ATOMIC",
+  "_known_variants": [
+    {
+      "props": {
+        "status": "Enabled",
+        "type": "Save"
+      },
+      "children": [
+        {
+          "id": "I507:1841;376:2465;12887:94538;15956:15555",
+          "name": "check",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 300,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--alert-success-success-text)",
+              "raw": {
+                "size": 12,
+                "weight": 300
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "Edit",
+          "className": "check_3035d0d"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "26px",
+          "height": "26px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0px",
+          "padding": "7px 5px 7px 5px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "backgroundColor": "var(--surfaces-background)",
+          "borderColor": "var(--borders-alert-success-default)",
+          "borderWidth": "1px",
+          "borderRadius": "32px"
+        },
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 300,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--alert-success-success-text)",
+          "raw": {
+            "size": 12,
+            "weight": 300
+          }
+        }
+      },
+      "_signature": "{\"status\":\"Enabled\",\"type\":\"Save\"}|TEXT",
+      "className": "inline_action_button_5ea3d41b"
+    },
+    {
+      "props": {
+        "status": "Enabled",
+        "type": "Delete"
+      },
+      "children": [
+        {
+          "id": "I507:1841;376:2465;15956:16138;15956:15567",
+          "name": "trash-alt",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 300,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--alert-critical-critical-text)",
+              "raw": {
+                "size": 12,
+                "weight": 300
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "trash-alt",
+          "className": "trash_alt_23637fa1"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "26px",
+          "height": "26px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "7px 5px 7px 5px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "backgroundColor": "var(--surfaces-background)",
+          "borderColor": "var(--borders-alert-critical-default)",
+          "borderWidth": "1px",
+          "borderRadius": "32px"
+        },
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 300,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--alert-critical-critical-text)",
+          "raw": {
+            "size": 12,
+            "weight": 300
+          }
+        }
+      },
+      "_signature": "{\"status\":\"Enabled\",\"type\":\"Delete\"}|TEXT",
+      "className": "inline_action_button_72c1a098"
+    }
+  ],
+  "className": "inline_action_button_72c1a098"
+}

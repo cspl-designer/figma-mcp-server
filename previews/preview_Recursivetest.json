@@ -1,0 +1,76 @@
+{
+  "id": "376:1532",
+  "name": "Recursive-test",
+  "type": "CONTAINER",
+  "visualSpec": {
+    "box": {
+      "width": "1440px",
+      "height": "836px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "padding": "0px",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "backgroundColor": "var(--surfaces-background)",
+      "borderWidth": "0px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+      "color": "var(--text-subtleleast)",
+      "raw": {
+        "size": 16,
+        "weight": 600
+      }
+    }
+  },
+  "props": {},
+  "children": [
+    {
+      "type": "COMPONENT_INSTANCE",
+      "name": "Table",
+      "componentName": "Table",
+      "props": {
+        "children": "Plan name",
+        "_inferred_content": "Plan name"
+      },
+      "visualSpec": {
+        "box": {
+          "display": "flex"
+        }
+      },
+      "children": [],
+      "isBlueprint": true,
+      "_inferred_content": "Plan name",
+      "className": "table_362868fa"
+    },
+    {
+      "type": "COMPONENT_INSTANCE",
+      "name": "Table",
+      "componentName": "Table",
+      "props": {
+        "children": "Plan name",
+        "_inferred_content": "Plan name"
+      },
+      "visualSpec": {
+        "box": {
+          "display": "flex"
+        }
+      },
+      "children": [],
+      "isBlueprint": true,
+      "_inferred_content": "Plan name",
+      "className": "table_362868fa"
+    }
+  ],
+  "_strategy": "BLUEPRINT",
+  "className": "recursive_test_75e3ccfe"
+}

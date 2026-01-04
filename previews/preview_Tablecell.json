@@ -1,0 +1,372 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "Table-cell",
+  "componentName": "Table-cell",
+  "isLibraryComponent": false,
+  "props": {
+    "size": "Regular",
+    "type": "Actions"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "144px",
+      "height": "50px",
+      "constraints": {
+        "widthMode": "Fill (Grow)",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "row",
+      "gap": "8px",
+      "padding": "12px undefinedpx 12px 12px",
+      "alignItems": "center",
+      "backgroundColor": "var(--table-fill-light)",
+      "borderColor": "var(--borders-default-border-light)",
+      "borderWidth": "0px",
+      "borderBottomWidth": "1px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "Font Awesome 6 Pro",
+      "fontWeight": 300,
+      "fontSize": "12px",
+      "lineHeight": "12px",
+      "color": "var(--alert-success-success-text)",
+      "raw": {
+        "size": 12,
+        "weight": 300
+      }
+    }
+  },
+  "children": [
+    {
+      "type": "COMPONENT_INSTANCE",
+      "name": "Inline Action button",
+      "componentName": "Inline Action button",
+      "props": {
+        "status": "Enabled",
+        "type": "Save",
+        "children": "Edit",
+        "_inferred_content": "Edit"
+      },
+      "visualSpec": {
+        "box": {
+          "display": "flex"
+        }
+      },
+      "children": [],
+      "isBlueprint": true,
+      "_inferred_content": "Edit",
+      "className": "inline_action_button_362868fa"
+    },
+    {
+      "type": "COMPONENT_INSTANCE",
+      "name": "Inline Action button",
+      "componentName": "Inline Action button",
+      "props": {
+        "status": "Enabled",
+        "type": "Delete",
+        "children": "trash-alt",
+        "_inferred_content": "trash-alt"
+      },
+      "visualSpec": {
+        "box": {
+          "display": "flex"
+        }
+      },
+      "children": [],
+      "isBlueprint": true,
+      "_inferred_content": "trash-alt",
+      "className": "inline_action_button_362868fa"
+    }
+  ],
+  "_inferred_content": "Edit",
+  "_strategy": "BLUEPRINT",
+  "_known_variants": [
+    {
+      "props": {
+        "size": "Regular",
+        "type": "Clickable"
+      },
+      "children": [
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Links",
+          "componentName": "Links",
+          "props": {
+            "size": "large",
+            "underlined": "True",
+            "state": "Active",
+            "prefixicon": "False",
+            "suffixicon": "False",
+            "theme": "Light",
+            "children": "Link",
+            "_inferred_content": "Link"
+          },
+          "visualSpec": {
+            "box": {
+              "width": "33px",
+              "height": "16px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "4px",
+              "padding": "0px",
+              "alignItems": "center",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--brand-background-primary-background)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Link",
+          "className": "links_310eeb3a"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "211px",
+          "height": "50px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "10px",
+          "padding": "12px undefinedpx 12px 12px",
+          "alignItems": "center",
+          "backgroundColor": "var(--table-fill-light)",
+          "borderColor": "var(--borders-default-border-light)",
+          "borderWidth": "0px",
+          "borderBottomWidth": "1px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--brand-background-primary-background)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{\"size\":\"Regular\",\"type\":\"Clickable\"}|Links",
+      "className": "table_cell_42a8541a"
+    },
+    {
+      "props": {
+        "size": "Regular",
+        "type": "Default"
+      },
+      "children": [
+        {
+          "id": "I507:1841;376:2463;9048:56558",
+          "name": "Table cell",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--text-text)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "123123",
+          "className": "table_cell_6c11f0"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "157px",
+          "height": "50px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "10px",
+          "padding": "12px undefinedpx 12px 12px",
+          "alignItems": "center",
+          "backgroundColor": "var(--table-fill-light)",
+          "borderColor": "var(--borders-default-border-subtle)",
+          "borderWidth": "0px",
+          "borderBottomWidth": "1px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-text)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{\"size\":\"Regular\",\"type\":\"Default\"}|TEXT",
+      "className": "table_cell_7c490c5d"
+    },
+    {
+      "props": {
+        "size": "Regular",
+        "type": "Actions"
+      },
+      "children": [
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Inline Action button",
+          "componentName": "Inline Action button",
+          "props": {
+            "status": "Enabled",
+            "type": "Save",
+            "children": "Edit",
+            "_inferred_content": "Edit"
+          },
+          "visualSpec": {
+            "box": {
+              "width": "26px",
+              "height": "26px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "padding": "7px 5px 7px 5px",
+              "alignItems": "center",
+              "justifyContent": "center",
+              "backgroundColor": "var(--surfaces-background)",
+              "borderColor": "var(--borders-alert-success-default)",
+              "borderWidth": "1px",
+              "borderRadius": "32px"
+            },
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 300,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--alert-success-success-text)",
+              "raw": {
+                "size": 12,
+                "weight": 300
+              }
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Edit",
+          "className": "inline_action_button_5ea3d41b"
+        },
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Inline Action button",
+          "componentName": "Inline Action button",
+          "props": {
+            "status": "Enabled",
+            "type": "Delete",
+            "children": "trash-alt",
+            "_inferred_content": "trash-alt"
+          },
+          "visualSpec": {
+            "box": {
+              "width": "26px",
+              "height": "26px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "10px",
+              "padding": "7px 5px 7px 5px",
+              "alignItems": "center",
+              "justifyContent": "center",
+              "backgroundColor": "var(--surfaces-background)",
+              "borderColor": "var(--borders-alert-critical-default)",
+              "borderWidth": "1px",
+              "borderRadius": "32px"
+            },
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 300,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--alert-critical-critical-text)",
+              "raw": {
+                "size": 12,
+                "weight": 300
+              }
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "trash-alt",
+          "className": "inline_action_button_72c1a098"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "144px",
+          "height": "50px",
+          "constraints": {
+            "widthMode": "Fill (Grow)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "8px",
+          "padding": "12px undefinedpx 12px 12px",
+          "alignItems": "center",
+          "backgroundColor": "var(--table-fill-light)",
+          "borderColor": "var(--borders-default-border-light)",
+          "borderWidth": "0px",
+          "borderBottomWidth": "1px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 300,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--alert-success-success-text)",
+          "raw": {
+            "size": 12,
+            "weight": 300
+          }
+        }
+      },
+      "_signature": "{\"size\":\"Regular\",\"type\":\"Actions\"}|Inline Action button,Inline Action button",
+      "className": "table_cell_7501760e"
+    }
+  ],
+  "className": "table_cell_7501760e"
+}

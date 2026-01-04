@@ -1,0 +1,1195 @@
+{
+  "id": "376:2540",
+  "name": "Table",
+  "type": "CONTAINER",
+  "visualSpec": {
+    "box": {
+      "width": "641px",
+      "height": "140px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "0px",
+      "padding": "0px",
+      "backgroundColor": "#ffffff",
+      "borderWidth": "0px",
+      "borderRadius": "0px",
+      "boxShadow": "0px 1px 2px 0px #00000040"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+      "color": "var(--text-subtleleast)",
+      "raw": {
+        "size": 16,
+        "weight": 600
+      }
+    }
+  },
+  "props": {},
+  "children": [
+    {
+      "id": "376:2455",
+      "name": "Header",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "641px",
+          "height": "40px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "0px",
+          "padding": "0px",
+          "alignItems": "center",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Table-head",
+          "componentName": "Table-head",
+          "props": {
+            "size": "Regular",
+            "moreoption": "False",
+            "filter": "False",
+            "sort": "True",
+            "search": "False",
+            "checkbox": "Default",
+            "children": "Plan name",
+            "_inferred_content": "Plan name"
+          },
+          "visualSpec": {
+            "box": {
+              "display": "flex"
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Plan name",
+          "className": "table_head_362868fa"
+        },
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Table-head",
+          "componentName": "Table-head",
+          "props": {
+            "size": "Regular",
+            "moreoption": "False",
+            "filter": "False",
+            "sort": "True",
+            "search": "False",
+            "checkbox": "Default",
+            "children": "Plan ID",
+            "_inferred_content": "Plan ID"
+          },
+          "visualSpec": {
+            "box": {
+              "display": "flex"
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Plan ID",
+          "className": "table_head_362868fa"
+        },
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Table-head",
+          "componentName": "Table-head",
+          "props": {
+            "size": "Regular",
+            "moreoption": "False",
+            "filter": "False",
+            "sort": "True",
+            "search": "False",
+            "checkbox": "Default",
+            "children": "Plan Type",
+            "_inferred_content": "Plan Type"
+          },
+          "visualSpec": {
+            "box": {
+              "display": "flex"
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Plan Type",
+          "className": "table_head_362868fa"
+        },
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Table-head",
+          "componentName": "Table-head",
+          "props": {
+            "size": "Regular",
+            "moreoption": "False",
+            "filter": "False",
+            "sort": "True",
+            "search": "False",
+            "checkbox": "Default",
+            "children": "Actions",
+            "_inferred_content": "Actions"
+          },
+          "visualSpec": {
+            "box": {
+              "display": "flex"
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Actions",
+          "className": "table_head_362868fa"
+        }
+      ],
+      "className": "header_576dda98"
+    },
+    {
+      "id": "376:2460",
+      "name": "Rows",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "641px",
+          "height": "100px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0px",
+          "padding": "0px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-text)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "id": "376:2461",
+          "name": "Row",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "641px",
+              "height": "50px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "0px",
+              "padding": "0px",
+              "alignItems": "center",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--brand-background-primary-background)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Clickable",
+                "children": "Link",
+                "_inferred_content": "Link"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Link",
+              "className": "table_head_362868fa"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Default",
+                "children": "123123",
+                "_inferred_content": "123123"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "123123",
+              "className": "table_head_362868fa"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Default",
+                "children": "401(K)",
+                "_inferred_content": "401(K)"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "401(K)",
+              "className": "table_head_362868fa"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Actions",
+                "children": "Edit",
+                "_inferred_content": "Edit"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Edit",
+              "className": "table_head_362868fa"
+            }
+          ],
+          "className": "row_29d2642d"
+        },
+        {
+          "id": "376:2466",
+          "name": "Row",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "641px",
+              "height": "50px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "0px",
+              "padding": "0px",
+              "alignItems": "center",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--brand-background-primary-background)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Clickable",
+                "children": "Link",
+                "_inferred_content": "Link"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Link",
+              "className": "table_head_362868fa"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Default",
+                "children": "435343",
+                "_inferred_content": "435343"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "435343",
+              "className": "table_head_362868fa"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Default",
+                "children": "401(K)",
+                "_inferred_content": "401(K)"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "401(K)",
+              "className": "table_head_362868fa"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-cell",
+              "componentName": "Table-cell",
+              "props": {
+                "size": "Regular",
+                "type": "Actions",
+                "children": "Edit",
+                "_inferred_content": "Edit"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Edit",
+              "className": "table_head_362868fa"
+            }
+          ],
+          "className": "row_29d2642d"
+        }
+      ],
+      "className": "rows_3405bfde"
+    }
+  ],
+  "_strategy": "BLUEPRINT",
+  "_known_variants": [
+    {
+      "props": {},
+      "children": [
+        {
+          "id": "I507:1841;376:2455",
+          "name": "Header",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "641px",
+              "height": "40px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "0px",
+              "padding": "0px",
+              "alignItems": "center",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-head",
+              "componentName": "Table-head",
+              "props": {
+                "size": "Regular",
+                "moreoption": "False",
+                "filter": "False",
+                "sort": "True",
+                "search": "False",
+                "checkbox": "Default",
+                "children": "Plan name",
+                "_inferred_content": "Plan name"
+              },
+              "visualSpec": {
+                "box": {
+                  "width": "206px",
+                  "height": "40px",
+                  "constraints": {
+                    "widthMode": "Fixed",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "8px",
+                  "padding": "12px 16px 12px 12px",
+                  "alignItems": "center",
+                  "backgroundColor": "var(--surfaces-layer-03)",
+                  "borderColor": "var(--borders-default-border-strong)",
+                  "borderWidth": "0px",
+                  "borderBottomWidth": "1px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Plan name",
+              "className": "table_head_1d987343"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-head",
+              "componentName": "Table-head",
+              "props": {
+                "size": "Regular",
+                "moreoption": "False",
+                "filter": "False",
+                "sort": "True",
+                "search": "False",
+                "checkbox": "Default",
+                "children": "Plan ID",
+                "_inferred_content": "Plan ID"
+              },
+              "visualSpec": {
+                "box": {
+                  "width": "160px",
+                  "height": "40px",
+                  "constraints": {
+                    "widthMode": "Fixed",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "8px",
+                  "padding": "12px 16px 12px 12px",
+                  "alignItems": "center",
+                  "backgroundColor": "var(--surfaces-layer-03)",
+                  "borderColor": "var(--borders-default-border-strong)",
+                  "borderWidth": "0px",
+                  "borderBottomWidth": "1px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Plan ID",
+              "className": "table_head_1efb7916"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-head",
+              "componentName": "Table-head",
+              "props": {
+                "size": "Regular",
+                "moreoption": "False",
+                "filter": "False",
+                "sort": "True",
+                "search": "False",
+                "checkbox": "Default",
+                "children": "Plan Type",
+                "_inferred_content": "Plan Type"
+              },
+              "visualSpec": {
+                "box": {
+                  "width": "138px",
+                  "height": "40px",
+                  "constraints": {
+                    "widthMode": "Fill (Grow)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "8px",
+                  "padding": "12px 16px 12px 12px",
+                  "alignItems": "center",
+                  "backgroundColor": "var(--surfaces-layer-03)",
+                  "borderColor": "var(--borders-default-border-strong)",
+                  "borderWidth": "0px",
+                  "borderBottomWidth": "1px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Plan Type",
+              "className": "table_head_1f221ca1"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Table-head",
+              "componentName": "Table-head",
+              "props": {
+                "size": "Regular",
+                "moreoption": "False",
+                "filter": "False",
+                "sort": "True",
+                "search": "False",
+                "checkbox": "Default",
+                "children": "Actions",
+                "_inferred_content": "Actions"
+              },
+              "visualSpec": {
+                "box": {
+                  "width": "138px",
+                  "height": "40px",
+                  "constraints": {
+                    "widthMode": "Fill (Grow)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "8px",
+                  "padding": "12px 16px 12px 12px",
+                  "alignItems": "center",
+                  "backgroundColor": "var(--surfaces-layer-03)",
+                  "borderColor": "var(--borders-default-border-strong)",
+                  "borderWidth": "0px",
+                  "borderBottomWidth": "1px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Actions",
+              "className": "table_head_1f221ca1"
+            }
+          ],
+          "className": "header_576dda98"
+        },
+        {
+          "id": "I507:1841;376:2460",
+          "name": "Rows",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "641px",
+              "height": "100px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--text-text)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I507:1841;376:2461",
+              "name": "Row",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "641px",
+                  "height": "50px",
+                  "constraints": {
+                    "widthMode": "Fill (Stretch)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "0px",
+                  "padding": "0px",
+                  "alignItems": "center",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--brand-background-primary-background)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Clickable",
+                    "children": "Link",
+                    "_inferred_content": "Link"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "211px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "10px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-light)",
+                      "borderColor": "var(--borders-default-border-light)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--brand-background-primary-background)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "Link",
+                  "className": "table_cell_42a8541a"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Default",
+                    "children": "123123",
+                    "_inferred_content": "123123"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "157px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "10px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-light)",
+                      "borderColor": "var(--borders-default-border-subtle)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--text-text)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "123123",
+                  "className": "table_cell_7c490c5d"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Default",
+                    "children": "401(K)",
+                    "_inferred_content": "401(K)"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "129px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "10px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-light)",
+                      "borderColor": "var(--borders-default-border-subtle)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--text-text)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "401(K)",
+                  "className": "table_cell_7c1fae98"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Actions",
+                    "children": "Edit",
+                    "_inferred_content": "Edit"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "144px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Grow)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "8px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-light)",
+                      "borderColor": "var(--borders-default-border-light)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "Font Awesome 6 Pro",
+                      "fontWeight": 300,
+                      "fontSize": "12px",
+                      "lineHeight": "12px",
+                      "color": "var(--alert-success-success-text)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 300
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "Edit",
+                  "className": "table_cell_7501760e"
+                }
+              ],
+              "className": "row_29d2642d"
+            },
+            {
+              "id": "I507:1841;376:2466",
+              "name": "Row",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "641px",
+                  "height": "50px",
+                  "constraints": {
+                    "widthMode": "Fill (Stretch)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "0px",
+                  "padding": "0px",
+                  "alignItems": "center",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--brand-background-primary-background)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Clickable",
+                    "children": "Link",
+                    "_inferred_content": "Link"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "211px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "10px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-dark)",
+                      "borderColor": "var(--borders-default-border-light)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--brand-background-primary-background)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "Link",
+                  "className": "table_cell_3fb948d6"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Default",
+                    "children": "435343",
+                    "_inferred_content": "435343"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "157px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "10px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-dark)",
+                      "borderColor": "var(--borders-default-border-subtle)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--text-text)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "435343",
+                  "className": "table_cell_394028b3"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Default",
+                    "children": "401(K)",
+                    "_inferred_content": "401(K)"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "129px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "10px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-dark)",
+                      "borderColor": "var(--borders-default-border-subtle)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--text-text)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "401(K)",
+                  "className": "table_cell_39698678"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Table-cell",
+                  "componentName": "Table-cell",
+                  "props": {
+                    "size": "Regular",
+                    "type": "Actions",
+                    "children": "Edit",
+                    "_inferred_content": "Edit"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "144px",
+                      "height": "50px",
+                      "constraints": {
+                        "widthMode": "Fill (Grow)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "8px",
+                      "padding": "12px undefinedpx 12px 12px",
+                      "alignItems": "center",
+                      "backgroundColor": "var(--table-fill-dark)",
+                      "borderColor": "var(--borders-default-border-light)",
+                      "borderWidth": "0px",
+                      "borderBottomWidth": "1px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "Font Awesome 6 Pro",
+                      "fontWeight": 300,
+                      "fontSize": "12px",
+                      "lineHeight": "12px",
+                      "color": "var(--alert-success-success-text)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 300
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "Edit",
+                  "className": "table_cell_41bae71e"
+                }
+              ],
+              "className": "row_29d2642d"
+            }
+          ],
+          "className": "rows_3405bfde"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "641px",
+          "height": "140px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0px",
+          "padding": "0px",
+          "backgroundColor": "#ffffff",
+          "borderWidth": "0px",
+          "borderRadius": "0px",
+          "boxShadow": "0px 1px 2px 0px #00000040"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{}|CONTAINER,CONTAINER",
+      "className": "table_141a036e"
+    }
+  ],
+  "className": "table_141a036e"
+}

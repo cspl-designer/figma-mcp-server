@@ -1,0 +1,45 @@
+.calender_side_menu_16d5f722 {
+
+  background-color: var(--surfaces-layer-02);
+  border-radius: 0px;
+  border-right: 1px solid #b8b8b8;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-extra-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-semibold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-semibold-font-weight, 600);
+  gap: 12px;
+  height: 316px;
+  line-height: var(--bodytext-extra-small-semibold-line-height, 16px);
+  padding: 0px;
+  width: 130px;
+
+}
+
+.side_menu_item_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.side_menu_item_3d27dec {
+
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-extra-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-semibold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-semibold-font-weight, 600);
+  gap: 4px;
+  height: 24px;
+  justify-content: center;
+  line-height: var(--bodytext-extra-small-semibold-line-height, 16px);
+  padding: 4px 8px 4px 8px;
+  width: 130px;
+
+}

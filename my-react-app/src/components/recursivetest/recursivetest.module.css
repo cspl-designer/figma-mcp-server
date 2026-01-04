@@ -1,0 +1,25 @@
+.recursive_test_75e3ccfe {
+
+  align-items: center;
+  background-color: var(--surfaces-background);
+  border-radius: 0px;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-semibold-font-size, 16px);
+  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  gap: 16px;
+  height: 836px;
+  justify-content: center;
+  line-height: var(--bodytext-regular-semibold-line-height, 16px);
+  padding: 0px;
+  width: 1440px;
+
+}
+
+.table_362868fa {
+
+  display: flex;
+
+}

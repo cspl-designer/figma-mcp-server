@@ -1,0 +1,133 @@
+.calandar_4a7987bf {
+
+  align-items: center;
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 14px;
+  font-weight: 900;
+  gap: 0px;
+  height: 240px;
+  line-height: 14px;
+  padding: 0px;
+  width: 272px;
+
+}
+
+.calandar_navigator_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.displaygrid_5db2805a {
+
+  align-items: center;
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-extra-small-bold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-bold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-bold-font-weight, 700);
+  gap: 8px;
+  height: 208px;
+  line-height: var(--bodytext-extra-small-bold-line-height, 16px);
+  padding: 4px 8px 4px 8px;
+  width: 272px;
+
+}
+
+.day_name_28f243c9 {
+
+  align-items: center;
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  font-family: var(--bodytext-extra-small-bold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-bold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-bold-font-weight, 700);
+  gap: 4px;
+  height: 16px;
+  justify-content: space_between;
+  line-height: var(--bodytext-extra-small-bold-line-height, 16px);
+  padding: 0px;
+  width: 256px;
+
+}
+
+.sun_575bf373 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-extra-small-bold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-bold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-bold-font-weight, 700);
+  line-height: var(--bodytext-extra-small-bold-line-height, 16px);
+
+}
+
+.days_grid_177ac34d {
+
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 0px;
+  height: 176px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  padding: 0px;
+  width: 256px;
+
+}
+
+.calandar_navigator_eefff15 {
+
+  background-color: #f5f5f5;
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 14px;
+  font-weight: 900;
+  gap: 4px;
+  height: 32px;
+  justify-content: center;
+  line-height: 14px;
+  padding: 4px 4px 4px 4px;
+  width: 272px;
+
+}
+
+.day_cell_400b9d95 {
+
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 0px;
+  height: 32px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  padding: 8px 8px 8px 8px;
+  width: 36px;
+
+}

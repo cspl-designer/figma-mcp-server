@@ -1,0 +1,167 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "date-input",
+  "componentName": "date-input",
+  "isLibraryComponent": false,
+  "props": {
+    "filled": "False"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "272px",
+      "height": "76px",
+      "constraints": {
+        "widthMode": "Fill (Stretch)",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "4px",
+      "padding": "16px 16px 16px 16px",
+      "borderWidth": "0px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+      "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+      "color": "#575757",
+      "raw": {
+        "size": 14,
+        "weight": 600
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "I421:2700;15948:14152;12892:107445",
+      "name": "Text",
+      "type": "TEXT",
+      "visualSpec": {
+        "typography": {
+          "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+          "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+          "color": "#575757",
+          "raw": {
+            "size": 14,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [],
+      "text": "From ",
+      "className": "text_698cbe93"
+    },
+    {
+      "id": "I421:2700;15948:14152;12892:107446",
+      "name": "Text",
+      "type": "TEXT",
+      "visualSpec": {
+        "typography": {
+          "fontFamily": "var(--headers-h2-font-family, \"Open Sans\")",
+          "fontWeight": "var(--headers-h2-font-weight, 600)",
+          "fontSize": "var(--headers-h2-font-size, 32px)",
+          "lineHeight": "var(--headers-h2-line-height, 24px)",
+          "color": "var(--disabled-text)",
+          "raw": {
+            "size": 32,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [],
+      "text": "MM/DD/YYYY",
+      "className": "text_3b0526dd"
+    }
+  ],
+  "_inferred_content": "From",
+  "_strategy": "ATOMIC",
+  "_known_variants": [
+    {
+      "props": {
+        "filled": "False"
+      },
+      "children": [
+        {
+          "id": "I421:2700;15948:14152;12892:107445",
+          "name": "Text",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+              "color": "#575757",
+              "raw": {
+                "size": 14,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "From ",
+          "className": "text_698cbe93"
+        },
+        {
+          "id": "I421:2700;15948:14152;12892:107446",
+          "name": "Text",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "var(--headers-h2-font-family, \"Open Sans\")",
+              "fontWeight": "var(--headers-h2-font-weight, 600)",
+              "fontSize": "var(--headers-h2-font-size, 32px)",
+              "lineHeight": "var(--headers-h2-line-height, 24px)",
+              "color": "var(--disabled-text)",
+              "raw": {
+                "size": 32,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "MM/DD/YYYY",
+          "className": "text_3b0526dd"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "272px",
+          "height": "76px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px 16px 16px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+          "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+          "color": "#575757",
+          "raw": {
+            "size": 14,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{\"filled\":\"False\"}|TEXT,TEXT",
+      "className": "date_input_7fa56797"
+    }
+  ],
+  "className": "date_input_7fa56797"
+}

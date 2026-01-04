@@ -1,0 +1,60 @@
+{
+  "id": "421:2620",
+  "name": "page-date-range",
+  "type": "CONTAINER",
+  "visualSpec": {
+    "box": {
+      "width": "1440px",
+      "height": "836px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "0px",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "padding": "0px",
+      "backgroundColor": "var(--surfaces-background)",
+      "borderWidth": "0px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+      "color": "var(--text-text)",
+      "raw": {
+        "size": 16,
+        "weight": 600
+      }
+    }
+  },
+  "props": {},
+  "children": [
+    {
+      "type": "COMPONENT_INSTANCE",
+      "name": "Calendar - DateRange",
+      "componentName": "Calendar - DateRange",
+      "props": {
+        "status": "Default",
+        "state": "Enabled",
+        "children": "0 dates selected",
+        "_inferred_content": "0 dates selected"
+      },
+      "visualSpec": {
+        "box": {
+          "display": "flex"
+        }
+      },
+      "children": [],
+      "isBlueprint": true,
+      "_inferred_content": "0 dates selected",
+      "className": "calendar___daterange_4479f1b"
+    }
+  ],
+  "_strategy": "BLUEPRINT",
+  "className": "page_date_range_679953cb"
+}

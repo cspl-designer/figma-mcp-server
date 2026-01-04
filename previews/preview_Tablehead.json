@@ -1,0 +1,185 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "Table-head",
+  "componentName": "Table-head",
+  "isLibraryComponent": false,
+  "props": {
+    "size": "Regular",
+    "moreoption": "False",
+    "filter": "False",
+    "sort": "True",
+    "search": "False",
+    "checkbox": "Default"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "206px",
+      "height": "40px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "row",
+      "gap": "8px",
+      "padding": "12px 16px 12px 12px",
+      "alignItems": "center",
+      "backgroundColor": "var(--surfaces-layer-03)",
+      "borderColor": "var(--borders-default-border-strong)",
+      "borderWidth": "0px",
+      "borderBottomWidth": "1px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+      "color": "var(--text-subtleleast)",
+      "raw": {
+        "size": 16,
+        "weight": 600
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "I376:2456;9048:56566",
+      "name": "Table cell",
+      "type": "TEXT",
+      "visualSpec": {
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [],
+      "text": "Plan name",
+      "className": "table_cell_3104d8ad"
+    },
+    {
+      "id": "I376:2456;9048:56567",
+      "name": "Sort",
+      "type": "TEXT",
+      "visualSpec": {
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 900,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 900
+          }
+        }
+      },
+      "props": {},
+      "children": [],
+      "text": "Sort",
+      "className": "sort_1a75d823"
+    }
+  ],
+  "_inferred_content": "Plan name",
+  "_strategy": "ATOMIC",
+  "_known_variants": [
+    {
+      "props": {
+        "size": "Regular",
+        "moreoption": "False",
+        "filter": "False",
+        "sort": "True",
+        "search": "False",
+        "checkbox": "Default"
+      },
+      "children": [
+        {
+          "id": "I507:1841;376:2456;9048:56566",
+          "name": "Table cell",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "Plan name",
+          "className": "table_cell_3104d8ad"
+        },
+        {
+          "id": "I507:1841;376:2456;9048:56567",
+          "name": "Sort",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 900,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 900
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "Sort",
+          "className": "sort_1a75d823"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "206px",
+          "height": "40px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "8px",
+          "padding": "12px 16px 12px 12px",
+          "alignItems": "center",
+          "backgroundColor": "var(--surfaces-layer-03)",
+          "borderColor": "var(--borders-default-border-strong)",
+          "borderWidth": "0px",
+          "borderBottomWidth": "1px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{\"size\":\"Regular\",\"moreoption\":\"False\",\"filter\":\"False\",\"sort\":\"True\",\"search\":\"False\",\"checkbox\":\"Default\"}|TEXT,TEXT",
+      "className": "table_head_1d987343"
+    }
+  ],
+  "className": "table_head_1d987343"
+}

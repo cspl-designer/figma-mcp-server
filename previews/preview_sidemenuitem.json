@@ -1,0 +1,125 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "side-menu-item",
+  "componentName": "side-menu-item",
+  "isLibraryComponent": false,
+  "props": {
+    "property1": "Enabled"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "130px",
+      "height": "24px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "4px",
+      "justifyContent": "center",
+      "padding": "4px 8px 4px 8px",
+      "borderWidth": "0px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+      "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+      "color": "var(--text-subtleleast)",
+      "raw": {
+        "size": 12,
+        "weight": 600
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "I421:2700;15948:14150;5385:38403;15945:6405",
+      "name": "Text",
+      "type": "TEXT",
+      "visualSpec": {
+        "typography": {
+          "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+          "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [],
+      "text": "Last 07 days",
+      "className": "text_60b58e74"
+    }
+  ],
+  "_inferred_content": "Last 07 days",
+  "_strategy": "ATOMIC",
+  "_known_variants": [
+    {
+      "props": {
+        "property1": "Enabled"
+      },
+      "children": [
+        {
+          "id": "I421:2700;15948:14150;5385:38403;15945:6405",
+          "name": "Text",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+              "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "Last 07 days",
+          "className": "text_60b58e74"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "130px",
+          "height": "24px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "4px",
+          "justifyContent": "center",
+          "padding": "4px 8px 4px 8px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+          "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{\"property1\":\"Enabled\"}|TEXT",
+      "className": "side_menu_item_3d27dec"
+    }
+  ],
+  "className": "side_menu_item_3d27dec"
+}

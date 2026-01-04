@@ -9,8 +9,8 @@ const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // Use supported models instead of "-latest"
-const GEMINI_TEXT_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
-const GEMINI_VISION_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_TEXT_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_VISION_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // Define Project Paths relative to the root (assuming this file is at root)
 const ROOT_DIR = __dirname;

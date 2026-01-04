@@ -5,7 +5,7 @@ const { getComponentsTool } = require('../tools/components.js');
 const { codeGenTool } = require('../tools/codegen.js');
 const { OUTPUT_PROJECT_DIRECTORY } = require('../config.js');
 
-const FIGMA_URL = 'https://www.figma.com/design/g4RSfrZLzmicSFLB1luKBU/Untitled?node-id=204-33&t=ppstSk5qUezu00XT-4';
+const FIGMA_URL = 'https://www.figma.com/design/g4RSfrZLzmicSFLB1luKBU/Untitled?node-id=376-1532&t=P1aXrai30Q9sZ2mq-4';
 
 async function main() {
     try {

@@ -30,6 +30,8 @@
     "@fortawesome/sharp-regular-svg-icons": "^7.0.1",
     "@fortawesome/sharp-solid-svg-icons": "^7.0.1",
     "@fortawesome/sharp-thin-svg-icons": "^7.0.1",
+    "@types/classnames": "^2.3.0",
+    "classnames": "^2.5.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2"

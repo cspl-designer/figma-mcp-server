@@ -1,0 +1,2721 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "Calandar",
+  "componentName": "Calandar",
+  "isLibraryComponent": false,
+  "props": {
+    "type": "DisplayDays"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "272px",
+      "height": "240px",
+      "constraints": {
+        "widthMode": "Fill (Stretch)",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "0px",
+      "alignItems": "center",
+      "padding": "0px",
+      "borderWidth": "0px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "Font Awesome 6 Pro",
+      "fontWeight": 900,
+      "fontSize": "14px",
+      "lineHeight": "14px",
+      "color": "var(--text-subtleleast)",
+      "raw": {
+        "size": 14,
+        "weight": 900
+      }
+    }
+  },
+  "children": [
+    {
+      "type": "COMPONENT_INSTANCE",
+      "name": "calandar-navigator",
+      "componentName": "calandar-navigator",
+      "props": {
+        "property1": "Default",
+        "children": "chevron-left",
+        "_inferred_content": "chevron-left"
+      },
+      "visualSpec": {
+        "box": {
+          "display": "flex"
+        }
+      },
+      "children": [],
+      "isBlueprint": true,
+      "_inferred_content": "chevron-left",
+      "className": "calandar_navigator_4479f1b"
+    },
+    {
+      "id": "I421:2700;15948:14153;15946:3123",
+      "name": "displaygrid",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "272px",
+          "height": "208px",
+          "constraints": {
+            "widthMode": "Fill (Grow)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "8px",
+          "alignItems": "center",
+          "padding": "4px 8px 4px 8px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+          "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+          "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 700
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "id": "I421:2700;15948:14153;15946:3124",
+          "name": "day-name",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "256px",
+              "height": "16px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "4px",
+              "alignItems": "center",
+              "justifyContent": "space_between",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+              "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+              "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 700
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I421:2700;15948:14153;15946:3125",
+              "name": "Sun",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Sun",
+              "className": "sun_575bf373"
+            },
+            {
+              "id": "I421:2700;15948:14153;15946:3126",
+              "name": "Mon",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Mon",
+              "className": "sun_575bf373"
+            },
+            {
+              "id": "I421:2700;15948:14153;15946:3127",
+              "name": "Tue",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Tue",
+              "className": "sun_575bf373"
+            },
+            {
+              "id": "I421:2700;15948:14153;15946:3128",
+              "name": "Wed",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Wed",
+              "className": "sun_575bf373"
+            },
+            {
+              "id": "I421:2700;15948:14153;15946:3129",
+              "name": "Thu",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Thu",
+              "className": "sun_575bf373"
+            },
+            {
+              "id": "I421:2700;15948:14153;15946:3130",
+              "name": "Fri",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Fri",
+              "className": "sun_575bf373"
+            },
+            {
+              "id": "I421:2700;15948:14153;15946:3131",
+              "name": "Sat",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Sat",
+              "className": "sun_575bf373"
+            }
+          ],
+          "className": "day_name_28f243c9"
+        },
+        {
+          "id": "I421:2700;15948:14153;15948:10070",
+          "name": "days-grid",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "256px",
+              "height": "176px",
+              "constraints": {
+                "widthMode": "Fill (Grow)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "gap": "0px",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+              "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 14,
+                "weight": 500
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "12",
+                "_inferred_content": "12"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "12",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "1",
+                "_inferred_content": "1"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "1",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "2",
+                "_inferred_content": "2"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "2",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "3",
+                "_inferred_content": "3"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "3",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "4",
+                "_inferred_content": "4"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "4",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "5",
+                "_inferred_content": "5"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "5",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "6",
+                "_inferred_content": "6"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "6",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "7",
+                "_inferred_content": "7"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "7",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "8",
+                "_inferred_content": "8"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "8",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "9",
+                "_inferred_content": "9"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "9",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "10",
+                "_inferred_content": "10"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "10",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "11",
+                "_inferred_content": "11"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "11",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "12",
+                "_inferred_content": "12"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "12",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "13",
+                "_inferred_content": "13"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "13",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "14",
+                "_inferred_content": "14"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "14",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "15",
+                "_inferred_content": "15"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "15",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "16",
+                "_inferred_content": "16"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "16",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "17",
+                "_inferred_content": "17"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "17",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "18",
+                "_inferred_content": "18"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "18",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "19",
+                "_inferred_content": "19"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "19",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "20",
+                "_inferred_content": "20"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "20",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "21",
+                "_inferred_content": "21"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "21",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "22",
+                "_inferred_content": "22"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "22",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "23",
+                "_inferred_content": "23"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "23",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "24",
+                "_inferred_content": "24"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "24",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "25",
+                "_inferred_content": "25"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "25",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "26",
+                "_inferred_content": "26"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "26",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "27",
+                "_inferred_content": "27"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "27",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "28",
+                "_inferred_content": "28"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "28",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "29",
+                "_inferred_content": "29"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "29",
+              "className": "calandar_navigator_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "day-cell",
+              "componentName": "day-cell",
+              "props": {
+                "selectiontype": "Normal",
+                "state": "Enabled",
+                "datetype": "Default dates",
+                "children": "30",
+                "_inferred_content": "30"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "30",
+              "className": "calandar_navigator_4479f1b"
+            }
+          ],
+          "className": "days_grid_177ac34d"
+        }
+      ],
+      "className": "displaygrid_5db2805a"
+    }
+  ],
+  "_inferred_content": "chevron-left",
+  "_strategy": "BLUEPRINT",
+  "_known_variants": [
+    {
+      "props": {
+        "type": "DisplayDays"
+      },
+      "children": [
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "calandar-navigator",
+          "componentName": "calandar-navigator",
+          "props": {
+            "property1": "Default",
+            "children": "chevron-left",
+            "_inferred_content": "chevron-left"
+          },
+          "visualSpec": {
+            "box": {
+              "width": "272px",
+              "height": "32px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "4px",
+              "justifyContent": "center",
+              "padding": "4px 4px 4px 4px",
+              "backgroundColor": "#f5f5f5",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 900,
+              "fontSize": "14px",
+              "lineHeight": "14px",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 14,
+                "weight": 900
+              }
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "chevron-left",
+          "className": "calandar_navigator_eefff15"
+        },
+        {
+          "id": "I421:2700;15948:14153;15946:3123",
+          "name": "displaygrid",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "272px",
+              "height": "208px",
+              "constraints": {
+                "widthMode": "Fill (Grow)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "8px",
+              "alignItems": "center",
+              "padding": "4px 8px 4px 8px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+              "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+              "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 700
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I421:2700;15948:14153;15946:3124",
+              "name": "day-name",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "256px",
+                  "height": "16px",
+                  "constraints": {
+                    "widthMode": "Fill (Stretch)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "4px",
+                  "alignItems": "center",
+                  "justifyContent": "space_between",
+                  "padding": "0px",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                  "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 700
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "id": "I421:2700;15948:14153;15946:3125",
+                  "name": "Sun",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Sun",
+                  "className": "sun_575bf373"
+                },
+                {
+                  "id": "I421:2700;15948:14153;15946:3126",
+                  "name": "Mon",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Mon",
+                  "className": "sun_575bf373"
+                },
+                {
+                  "id": "I421:2700;15948:14153;15946:3127",
+                  "name": "Tue",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Tue",
+                  "className": "sun_575bf373"
+                },
+                {
+                  "id": "I421:2700;15948:14153;15946:3128",
+                  "name": "Wed",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Wed",
+                  "className": "sun_575bf373"
+                },
+                {
+                  "id": "I421:2700;15948:14153;15946:3129",
+                  "name": "Thu",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Thu",
+                  "className": "sun_575bf373"
+                },
+                {
+                  "id": "I421:2700;15948:14153;15946:3130",
+                  "name": "Fri",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Fri",
+                  "className": "sun_575bf373"
+                },
+                {
+                  "id": "I421:2700;15948:14153;15946:3131",
+                  "name": "Sat",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-extra-small-bold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-extra-small-bold-font-weight, 700)",
+                      "fontSize": "var(--bodytext-extra-small-bold-font-size, 12px)",
+                      "lineHeight": "var(--bodytext-extra-small-bold-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 700
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Sat",
+                  "className": "sun_575bf373"
+                }
+              ],
+              "className": "day_name_28f243c9"
+            },
+            {
+              "id": "I421:2700;15948:14153;15948:10070",
+              "name": "days-grid",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "256px",
+                  "height": "176px",
+                  "constraints": {
+                    "widthMode": "Fill (Grow)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "gap": "0px",
+                  "padding": "0px",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                  "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                  "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 14,
+                    "weight": 500
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "12",
+                    "_inferred_content": "12"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "12",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "1",
+                    "_inferred_content": "1"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "1",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "2",
+                    "_inferred_content": "2"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "2",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "3",
+                    "_inferred_content": "3"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "3",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "4",
+                    "_inferred_content": "4"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "4",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "5",
+                    "_inferred_content": "5"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "5",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "6",
+                    "_inferred_content": "6"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "6",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "7",
+                    "_inferred_content": "7"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "7",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "8",
+                    "_inferred_content": "8"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "8",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "9",
+                    "_inferred_content": "9"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "9",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "10",
+                    "_inferred_content": "10"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "10",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "11",
+                    "_inferred_content": "11"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "11",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "12",
+                    "_inferred_content": "12"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "12",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "13",
+                    "_inferred_content": "13"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "13",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "14",
+                    "_inferred_content": "14"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "14",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "15",
+                    "_inferred_content": "15"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "15",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "16",
+                    "_inferred_content": "16"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "16",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "17",
+                    "_inferred_content": "17"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "17",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "18",
+                    "_inferred_content": "18"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "18",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "19",
+                    "_inferred_content": "19"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "19",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "20",
+                    "_inferred_content": "20"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "20",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "21",
+                    "_inferred_content": "21"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "21",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "22",
+                    "_inferred_content": "22"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "22",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "23",
+                    "_inferred_content": "23"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "23",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "24",
+                    "_inferred_content": "24"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "24",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "25",
+                    "_inferred_content": "25"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "25",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "26",
+                    "_inferred_content": "26"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "26",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "27",
+                    "_inferred_content": "27"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "27",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "28",
+                    "_inferred_content": "28"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "28",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "29",
+                    "_inferred_content": "29"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "29",
+                  "className": "day_cell_400b9d95"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "day-cell",
+                  "componentName": "day-cell",
+                  "props": {
+                    "selectiontype": "Normal",
+                    "state": "Enabled",
+                    "datetype": "Default dates",
+                    "children": "30",
+                    "_inferred_content": "30"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "36px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "#000000",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-medium-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-medium-font-weight, 500)",
+                      "fontSize": "var(--bodytext-small-medium-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-medium-line-height, 16px)",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 500
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "30",
+                  "className": "day_cell_400b9d95"
+                }
+              ],
+              "className": "days_grid_177ac34d"
+            }
+          ],
+          "className": "displaygrid_5db2805a"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "272px",
+          "height": "240px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0px",
+          "alignItems": "center",
+          "padding": "0px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 900,
+          "fontSize": "14px",
+          "lineHeight": "14px",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 14,
+            "weight": 900
+          }
+        }
+      },
+      "_signature": "{\"type\":\"DisplayDays\"}|calandar-navigator,CONTAINER",
+      "className": "calandar_4a7987bf"
+    }
+  ],
+  "className": "calandar_4a7987bf"
+}

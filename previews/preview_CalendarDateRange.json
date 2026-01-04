@@ -1,0 +1,1092 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "Calendar - DateRange",
+  "componentName": "Calendar - DateRange",
+  "isLibraryComponent": false,
+  "props": {
+    "status": "Default",
+    "state": "Enabled"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "674px",
+      "height": "388px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "0px",
+      "padding": "0px",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#b8b8b8",
+      "borderWidth": "1px",
+      "borderRadius": "6px"
+    },
+    "typography": {
+      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+      "color": "var(--text-text)",
+      "raw": {
+        "size": 16,
+        "weight": 600
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "I421:2700;5310:32733",
+      "name": "header",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "674px",
+          "height": "72px",
+          "constraints": {
+            "widthMode": "Fill (Stretch)",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "32px",
+          "alignItems": "center",
+          "padding": "16px 16px 16px 16px",
+          "borderColor": "#b8b8b8",
+          "borderWidth": "0px",
+          "borderBottomWidth": "1px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-text)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "id": "I421:2700;5310:32734",
+          "name": "title-erapper",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "462px",
+              "height": "40px",
+              "constraints": {
+                "widthMode": "Fill (Grow)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "8px",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--text-text)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I421:2700;5310:32736",
+              "name": "Select Date Range",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--text-text)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "Select Date Range",
+              "className": "select_date_range_7b130285"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "AssistiveTexts",
+              "componentName": "AssistiveTexts",
+              "props": {
+                "state": "Info",
+                "size": "Medium",
+                "theme": "Light",
+                "children": "0 dates selected",
+                "_inferred_content": "0 dates selected"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "0 dates selected",
+              "className": "assistivetexts_4479f1b"
+            }
+          ],
+          "className": "title_erapper_35fbfad9"
+        },
+        {
+          "id": "I421:2700;5310:32741",
+          "name": "actions",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "148px",
+              "height": "32px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "16px",
+              "alignItems": "center",
+              "justifyContent": "max",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+              "color": "var(--brand-text-default)",
+              "raw": {
+                "size": 14,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Button",
+              "componentName": "Button",
+              "props": {
+                "size": "Small",
+                "iconleft": "False",
+                "iconright": "False",
+                "emphasis": "Tertiary",
+                "state": "Normal",
+                "deletable": "False",
+                "children": "Cancel",
+                "_inferred_content": "Cancel"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Cancel",
+              "className": "assistivetexts_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Button",
+              "componentName": "Button",
+              "props": {
+                "size": "Small",
+                "iconleft": "False",
+                "iconright": "False",
+                "emphasis": "Secondary",
+                "state": "Disabled",
+                "deletable": "False",
+                "children": "Apply",
+                "_inferred_content": "Apply"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Apply",
+              "className": "assistivetexts_4479f1b"
+            }
+          ],
+          "className": "actions_34b30789"
+        }
+      ],
+      "className": "header_fce36f8"
+    },
+    {
+      "id": "I421:2700;15948:14149",
+      "name": "body-wrapper",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "674px",
+          "height": "316px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "0px",
+          "padding": "0px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+          "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "type": "COMPONENT_INSTANCE",
+          "name": "Calender side menu",
+          "componentName": "Calender side menu",
+          "props": {
+            "property1": "Calender side menu",
+            "children": "Last 07 days",
+            "_inferred_content": "Last 07 days"
+          },
+          "visualSpec": {
+            "box": {
+              "display": "flex"
+            }
+          },
+          "children": [],
+          "isBlueprint": true,
+          "_inferred_content": "Last 07 days",
+          "className": "assistivetexts_4479f1b"
+        },
+        {
+          "id": "I421:2700;15948:14151",
+          "name": "from-side",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "272px",
+              "height": "316px",
+              "constraints": {
+                "widthMode": "Fill (Grow)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "padding": "0px",
+              "borderColor": "var(--borders-default-border-strong)",
+              "borderWidth": "0px",
+              "borderRightWidth": "1px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+              "color": "#575757",
+              "raw": {
+                "size": 14,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "date-input",
+              "componentName": "date-input",
+              "props": {
+                "filled": "False",
+                "children": "From",
+                "_inferred_content": "From"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "From",
+              "className": "assistivetexts_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Calandar",
+              "componentName": "Calandar",
+              "props": {
+                "type": "DisplayDays",
+                "children": "chevron-left",
+                "_inferred_content": "chevron-left"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "chevron-left",
+              "className": "assistivetexts_4479f1b"
+            }
+          ],
+          "className": "from_side_42e9fda2"
+        },
+        {
+          "id": "I421:2700;15948:14154",
+          "name": "to-side",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "272px",
+              "height": "316px",
+              "constraints": {
+                "widthMode": "Fill (Grow)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+              "color": "#575757",
+              "raw": {
+                "size": 14,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "date-input",
+              "componentName": "date-input",
+              "props": {
+                "filled": "False",
+                "children": "From",
+                "_inferred_content": "From"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "From",
+              "className": "assistivetexts_4479f1b"
+            },
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Calandar",
+              "componentName": "Calandar",
+              "props": {
+                "type": "DisplayDays",
+                "children": "chevron-left",
+                "_inferred_content": "chevron-left"
+              },
+              "visualSpec": {
+                "box": {
+                  "display": "flex"
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "chevron-left",
+              "className": "assistivetexts_4479f1b"
+            }
+          ],
+          "className": "to_side_52676260"
+        }
+      ],
+      "className": "body_wrapper_40bd27d5"
+    }
+  ],
+  "_inferred_content": "0 dates selected",
+  "_strategy": "BLUEPRINT",
+  "_known_variants": [
+    {
+      "props": {
+        "status": "Default",
+        "state": "Enabled"
+      },
+      "children": [
+        {
+          "id": "I421:2700;5310:32733",
+          "name": "header",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "674px",
+              "height": "72px",
+              "constraints": {
+                "widthMode": "Fill (Stretch)",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "32px",
+              "alignItems": "center",
+              "padding": "16px 16px 16px 16px",
+              "borderColor": "#b8b8b8",
+              "borderWidth": "0px",
+              "borderBottomWidth": "1px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+              "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+              "color": "var(--text-text)",
+              "raw": {
+                "size": 16,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I421:2700;5310:32734",
+              "name": "title-erapper",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "462px",
+                  "height": "40px",
+                  "constraints": {
+                    "widthMode": "Fill (Grow)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "8px",
+                  "padding": "0px",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                  "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                  "color": "var(--text-text)",
+                  "raw": {
+                    "size": 16,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "id": "I421:2700;5310:32736",
+                  "name": "Select Date Range",
+                  "type": "TEXT",
+                  "visualSpec": {
+                    "typography": {
+                      "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+                      "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+                      "color": "var(--text-text)",
+                      "raw": {
+                        "size": 16,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "props": {},
+                  "children": [],
+                  "text": "Select Date Range",
+                  "className": "select_date_range_7b130285"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "AssistiveTexts",
+                  "componentName": "AssistiveTexts",
+                  "props": {
+                    "state": "Info",
+                    "size": "Medium",
+                    "theme": "Light",
+                    "children": "0 dates selected",
+                    "_inferred_content": "0 dates selected"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "272px",
+                      "height": "16px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "4px",
+                      "alignItems": "center",
+                      "padding": "0px",
+                      "borderWidth": "0px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "Font Awesome 6 Pro",
+                      "fontWeight": 900,
+                      "fontSize": "12px",
+                      "lineHeight": "12px",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 12,
+                        "weight": 900
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "0 dates selected",
+                  "className": "assistivetexts_37e9b526"
+                }
+              ],
+              "className": "title_erapper_35fbfad9"
+            },
+            {
+              "id": "I421:2700;5310:32741",
+              "name": "actions",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "148px",
+                  "height": "32px",
+                  "constraints": {
+                    "widthMode": "Fixed",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": "16px",
+                  "alignItems": "center",
+                  "justifyContent": "max",
+                  "padding": "0px",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                  "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                  "color": "var(--brand-text-default)",
+                  "raw": {
+                    "size": 14,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Button",
+                  "componentName": "Button",
+                  "props": {
+                    "size": "Small",
+                    "iconleft": "False",
+                    "iconright": "False",
+                    "emphasis": "Tertiary",
+                    "state": "Normal",
+                    "deletable": "False",
+                    "children": "Cancel",
+                    "_inferred_content": "Cancel"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "61px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "padding": "8px 8px 8px 8px",
+                      "borderColor": "var(--brand-background-primary-background)",
+                      "borderWidth": "0px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                      "color": "var(--brand-text-default)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "Cancel",
+                  "className": "button_1cd50b61"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Button",
+                  "componentName": "Button",
+                  "props": {
+                    "size": "Small",
+                    "iconleft": "False",
+                    "iconright": "False",
+                    "emphasis": "Secondary",
+                    "state": "Disabled",
+                    "deletable": "False",
+                    "children": "Apply",
+                    "_inferred_content": "Apply"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "71px",
+                      "height": "32px",
+                      "constraints": {
+                        "widthMode": "Fixed",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "padding": "8px 16px 8px 16px",
+                      "backgroundColor": "var(--brand-background-secondary-background)",
+                      "borderColor": "var(--borders-brand-primary-disabled)",
+                      "borderWidth": "1px",
+                      "borderRadius": "4px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                      "color": "var(--brand-text-disabled)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "Apply",
+                  "className": "button_32b55cee"
+                }
+              ],
+              "className": "actions_34b30789"
+            }
+          ],
+          "className": "header_fce36f8"
+        },
+        {
+          "id": "I421:2700;15948:14149",
+          "name": "body-wrapper",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "674px",
+              "height": "316px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "0px",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+              "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "type": "COMPONENT_INSTANCE",
+              "name": "Calender side menu",
+              "componentName": "Calender side menu",
+              "props": {
+                "property1": "Calender side menu",
+                "children": "Last 07 days",
+                "_inferred_content": "Last 07 days"
+              },
+              "visualSpec": {
+                "box": {
+                  "width": "130px",
+                  "height": "316px",
+                  "constraints": {
+                    "widthMode": "Fill (Stretch)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "12px",
+                  "padding": "0px",
+                  "backgroundColor": "var(--surfaces-layer-02)",
+                  "borderColor": "#b8b8b8",
+                  "borderWidth": "0px",
+                  "borderRightWidth": "1px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-extra-small-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-extra-small-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-extra-small-semibold-font-size, 12px)",
+                  "lineHeight": "var(--bodytext-extra-small-semibold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 600
+                  }
+                }
+              },
+              "children": [],
+              "isBlueprint": true,
+              "_inferred_content": "Last 07 days",
+              "className": "calender_side_menu_16d5f722"
+            },
+            {
+              "id": "I421:2700;15948:14151",
+              "name": "from-side",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "272px",
+                  "height": "316px",
+                  "constraints": {
+                    "widthMode": "Fill (Grow)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "0px",
+                  "padding": "0px",
+                  "borderColor": "var(--borders-default-border-strong)",
+                  "borderWidth": "0px",
+                  "borderRightWidth": "1px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                  "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                  "color": "#575757",
+                  "raw": {
+                    "size": 14,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "date-input",
+                  "componentName": "date-input",
+                  "props": {
+                    "filled": "False",
+                    "children": "From",
+                    "_inferred_content": "From"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "272px",
+                      "height": "76px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "4px",
+                      "padding": "16px 16px 16px 16px",
+                      "borderWidth": "0px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                      "color": "#575757",
+                      "raw": {
+                        "size": 14,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "From",
+                  "className": "date_input_7fa56797"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Calandar",
+                  "componentName": "Calandar",
+                  "props": {
+                    "type": "DisplayDays",
+                    "children": "chevron-left",
+                    "_inferred_content": "chevron-left"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "272px",
+                      "height": "240px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "0px",
+                      "borderWidth": "0px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "Font Awesome 6 Pro",
+                      "fontWeight": 900,
+                      "fontSize": "14px",
+                      "lineHeight": "14px",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 900
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "chevron-left",
+                  "className": "calandar_4a7987bf"
+                }
+              ],
+              "className": "from_side_42e9fda2"
+            },
+            {
+              "id": "I421:2700;15948:14154",
+              "name": "to-side",
+              "type": "CONTAINER",
+              "visualSpec": {
+                "box": {
+                  "width": "272px",
+                  "height": "316px",
+                  "constraints": {
+                    "widthMode": "Fill (Grow)",
+                    "heightMode": "Fixed"
+                  },
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "0px",
+                  "padding": "0px",
+                  "borderWidth": "0px",
+                  "borderRadius": "0px"
+                },
+                "typography": {
+                  "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                  "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                  "color": "#575757",
+                  "raw": {
+                    "size": 14,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "date-input",
+                  "componentName": "date-input",
+                  "props": {
+                    "filled": "False",
+                    "children": "From",
+                    "_inferred_content": "From"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "272px",
+                      "height": "76px",
+                      "constraints": {
+                        "widthMode": "Fill (Stretch)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "4px",
+                      "padding": "16px 16px 16px 16px",
+                      "borderWidth": "0px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                      "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                      "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                      "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                      "color": "#575757",
+                      "raw": {
+                        "size": 14,
+                        "weight": 600
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "From",
+                  "className": "date_input_7fa56797"
+                },
+                {
+                  "type": "COMPONENT_INSTANCE",
+                  "name": "Calandar",
+                  "componentName": "Calandar",
+                  "props": {
+                    "type": "DisplayDays",
+                    "children": "chevron-left",
+                    "_inferred_content": "chevron-left"
+                  },
+                  "visualSpec": {
+                    "box": {
+                      "width": "272px",
+                      "height": "240px",
+                      "constraints": {
+                        "widthMode": "Fill (Grow)",
+                        "heightMode": "Fixed"
+                      },
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "0px",
+                      "alignItems": "center",
+                      "padding": "0px",
+                      "borderWidth": "0px",
+                      "borderRadius": "0px"
+                    },
+                    "typography": {
+                      "fontFamily": "Font Awesome 6 Pro",
+                      "fontWeight": 900,
+                      "fontSize": "14px",
+                      "lineHeight": "14px",
+                      "color": "var(--text-subtleleast)",
+                      "raw": {
+                        "size": 14,
+                        "weight": 900
+                      }
+                    }
+                  },
+                  "children": [],
+                  "isBlueprint": true,
+                  "_inferred_content": "chevron-left",
+                  "className": "calandar_4a7987bf"
+                }
+              ],
+              "className": "to_side_52676260"
+            }
+          ],
+          "className": "body_wrapper_40bd27d5"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "674px",
+          "height": "388px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0px",
+          "padding": "0px",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#b8b8b8",
+          "borderWidth": "1px",
+          "borderRadius": "6px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-regular-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-regular-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-regular-semibold-font-size, 16px)",
+          "lineHeight": "var(--bodytext-regular-semibold-line-height, 16px)",
+          "color": "var(--text-text)",
+          "raw": {
+            "size": 16,
+            "weight": 600
+          }
+        }
+      },
+      "_signature": "{\"status\":\"Default\",\"state\":\"Enabled\"}|CONTAINER,CONTAINER",
+      "className": "calendar___daterange_5163e54d"
+    }
+  ],
+  "className": "calendar___daterange_5163e54d"
+}

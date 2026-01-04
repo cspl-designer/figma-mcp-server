@@ -1,0 +1,321 @@
+{
+  "type": "COMPONENT_INSTANCE",
+  "name": "AssistiveTexts",
+  "componentName": "AssistiveTexts",
+  "isLibraryComponent": false,
+  "props": {
+    "state": "Info",
+    "size": "Medium",
+    "theme": "Light"
+  },
+  "visualSpec": {
+    "box": {
+      "width": "272px",
+      "height": "16px",
+      "constraints": {
+        "widthMode": "Fixed",
+        "heightMode": "Fixed"
+      },
+      "display": "flex",
+      "flexDirection": "row",
+      "gap": "4px",
+      "alignItems": "center",
+      "padding": "0px",
+      "borderWidth": "0px",
+      "borderRadius": "0px"
+    },
+    "typography": {
+      "fontFamily": "Font Awesome 6 Pro",
+      "fontWeight": 900,
+      "fontSize": "12px",
+      "lineHeight": "12px",
+      "color": "var(--text-subtleleast)",
+      "raw": {
+        "size": 12,
+        "weight": 900
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "I421:2700;12892:108853;12833:39063",
+      "name": "Base - Icon",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "12px",
+          "height": "12px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0px",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "padding": "0px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 900,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 900
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "id": "I421:2700;12892:108853;12833:39064",
+          "name": "info-circle",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 900,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 900
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "info-circle",
+          "className": "info_circle_3bc70078"
+        }
+      ],
+      "className": "base___icon_3dd087a6"
+    },
+    {
+      "id": "I421:2700;12892:108853;12833:39065",
+      "name": "Base Label - (Label)",
+      "type": "CONTAINER",
+      "visualSpec": {
+        "box": {
+          "width": "256px",
+          "height": "16px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "0px",
+          "padding": "0px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+          "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+          "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+          "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 14,
+            "weight": 600
+          }
+        }
+      },
+      "props": {},
+      "children": [
+        {
+          "id": "I421:2700;12892:108853;12833:39066",
+          "name": "Error - Input must also use error state",
+          "type": "TEXT",
+          "visualSpec": {
+            "typography": {
+              "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 14,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [],
+          "text": "0 dates selected",
+          "className": "error___input_must_also_use_error_state_10ccb376"
+        }
+      ],
+      "className": "base_label____label__6108663a"
+    }
+  ],
+  "_inferred_content": "0 dates selected",
+  "_strategy": "ATOMIC",
+  "_known_variants": [
+    {
+      "props": {
+        "state": "Info",
+        "size": "Medium",
+        "theme": "Light"
+      },
+      "children": [
+        {
+          "id": "I421:2700;12892:108853;12833:39063",
+          "name": "Base - Icon",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "12px",
+              "height": "12px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "0px",
+              "alignItems": "center",
+              "justifyContent": "center",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "Font Awesome 6 Pro",
+              "fontWeight": 900,
+              "fontSize": "12px",
+              "lineHeight": "12px",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 12,
+                "weight": 900
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I421:2700;12892:108853;12833:39064",
+              "name": "info-circle",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "Font Awesome 6 Pro",
+                  "fontWeight": 900,
+                  "fontSize": "12px",
+                  "lineHeight": "12px",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 12,
+                    "weight": 900
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "info-circle",
+              "className": "info_circle_3bc70078"
+            }
+          ],
+          "className": "base___icon_3dd087a6"
+        },
+        {
+          "id": "I421:2700;12892:108853;12833:39065",
+          "name": "Base Label - (Label)",
+          "type": "CONTAINER",
+          "visualSpec": {
+            "box": {
+              "width": "256px",
+              "height": "16px",
+              "constraints": {
+                "widthMode": "Fixed",
+                "heightMode": "Fixed"
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "0px",
+              "padding": "0px",
+              "borderWidth": "0px",
+              "borderRadius": "0px"
+            },
+            "typography": {
+              "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+              "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+              "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+              "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+              "color": "var(--text-subtleleast)",
+              "raw": {
+                "size": 14,
+                "weight": 600
+              }
+            }
+          },
+          "props": {},
+          "children": [
+            {
+              "id": "I421:2700;12892:108853;12833:39066",
+              "name": "Error - Input must also use error state",
+              "type": "TEXT",
+              "visualSpec": {
+                "typography": {
+                  "fontFamily": "var(--bodytext-small-semibold-font-family, \"Open Sans\")",
+                  "fontWeight": "var(--bodytext-small-semibold-font-weight, 600)",
+                  "fontSize": "var(--bodytext-small-semibold-font-size, 14px)",
+                  "lineHeight": "var(--bodytext-small-semibold-line-height, 16px)",
+                  "color": "var(--text-subtleleast)",
+                  "raw": {
+                    "size": 14,
+                    "weight": 600
+                  }
+                }
+              },
+              "props": {},
+              "children": [],
+              "text": "0 dates selected",
+              "className": "error___input_must_also_use_error_state_10ccb376"
+            }
+          ],
+          "className": "base_label____label__6108663a"
+        }
+      ],
+      "visualSpec": {
+        "box": {
+          "width": "272px",
+          "height": "16px",
+          "constraints": {
+            "widthMode": "Fixed",
+            "heightMode": "Fixed"
+          },
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "4px",
+          "alignItems": "center",
+          "padding": "0px",
+          "borderWidth": "0px",
+          "borderRadius": "0px"
+        },
+        "typography": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": 900,
+          "fontSize": "12px",
+          "lineHeight": "12px",
+          "color": "var(--text-subtleleast)",
+          "raw": {
+            "size": 12,
+            "weight": 900
+          }
+        }
+      },
+      "_signature": "{\"state\":\"Info\",\"size\":\"Medium\",\"theme\":\"Light\"}|CONTAINER,CONTAINER",
+      "className": "assistivetexts_37e9b526"
+    }
+  ],
+  "className": "assistivetexts_37e9b526"
+}

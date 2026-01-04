@@ -1,0 +1,27 @@
+.page_date_range_679953cb {
+
+  align-items: center;
+  background-color: var(--surfaces-background);
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-semibold-font-size, 16px);
+  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  gap: 0px;
+  height: 836px;
+  justify-content: center;
+  line-height: var(--bodytext-regular-semibold-line-height, 16px);
+  padding: 0px;
+  width: 1440px;
+
+}
+
+.calendar___daterange_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}

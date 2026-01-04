@@ -1,58 +1,57 @@
 import React from 'react';
-import clsx from 'clsx';
 import styles from './Button.module.css';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  emphasis?: 'Primary' | 'Secondary' | 'Tertiary';
-  size?: 'Regular' | 'Small' | 'Extra Small';
-  iconLeft?: boolean;
-  iconRight?: boolean;
-  state?: 'Disabled' | 'Normal' | 'Hover' | 'Focus' | 'Active';
-  deletable?: boolean;
-  label: string;
+interface ButtonProps {
+  size: "Small";
+  iconleft: "False";
+  iconright: "False";
+  emphasis: "Tertiary" | "Secondary";
+  state: "Normal" | "Disabled";
+  deletable: "False";
+  className?: string;
+  children?: React.ReactNode;
 }
 
-// Placeholder for Icon component
-const IconPlaceholder: React.FC = () => <span className={styles.icon_placeholder}></span>;
-
-const Button: React.FC<ButtonProps> = ({
-  emphasis = 'Primary',
-  size = 'Regular',
-  iconLeft = false,
-  iconRight = false,
-  state = 'Normal',
-  deletable = false,
-  label,
+export const Button: React.FC<ButtonProps> = ({
+  size,
+  iconleft,
+  iconright,
+  emphasis,
+  state,
+  deletable,
   className,
-  ...props
+  children,
 }) => {
-  const formatClass = (value: string) => value.toLowerCase().replace(/ /g, '_');
-  const isDisabled = state === 'Disabled';
+  const currentProps = { size, iconleft, iconright, emphasis, state, deletable };
+  const propsKey = JSON.stringify(currentProps);
 
-  const buttonClassName = clsx(
-    styles.button,
-    styles[`emphasis_${formatClass(emphasis)}`],
-    styles[`size_${formatClass(size)}`],
-    styles[`state_${formatClass(state)}`],
-    {
-      [styles.icon_left]: iconLeft,
-      [styles.icon_right]: iconRight,
-      [styles.deletable]: deletable,
-    },
-    className
-  );
-
-  return (
-    <button
-      className={buttonClassName}
-      disabled={isDisabled}
-      {...props}
-    >
-      {iconLeft && <IconPlaceholder />}
-      <span className={styles.label}>{label}</span>
-      {(iconRight || deletable) && <IconPlaceholder />}
-    </button>
-  );
+  switch (propsKey) {
+    case '{"size":"Small","iconleft":"False","iconright":"False","emphasis":"Tertiary","state":"Normal","deletable":"False"}':
+      return (
+        <div className={`${styles.button_1cd50b61} ${className || ''}`}>
+          <div className={styles.frame_1000003627_5305f5d1}>
+            <span className={styles.button_446e7135}>
+              {children || "Cancel"}
+            </span>
+          </div>
+        </div>
+      );
+    case '{"size":"Small","iconleft":"False","iconright":"False","emphasis":"Secondary","state":"Disabled","deletable":"False"}':
+      return (
+        <div className={`${styles.button_32b55cee} ${className || ''}`}>
+          <span className={styles.button_34c76446}>
+            {children || "Apply"}
+          </span>
+        </div>
+      );
+    default:
+      // Default case matches the current instance provided in the layout data.
+      return (
+        <div className={`${styles.button_32b55cee} ${className || ''}`}>
+          <span className={styles.button_34c76446}>
+            {children || "Apply"}
+          </span>
+        </div>
+      );
+  }
 };
-
-export default Button;

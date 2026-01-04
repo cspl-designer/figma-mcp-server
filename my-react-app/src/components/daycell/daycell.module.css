@@ -1,0 +1,29 @@
+.day_cell_400b9d95 {
+
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 0px;
+  height: 32px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  padding: 8px 8px 8px 8px;
+  width: 36px;
+
+}
+
+.day_44608e89 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+
+}
