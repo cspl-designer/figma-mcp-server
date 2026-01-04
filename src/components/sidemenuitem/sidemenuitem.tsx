@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './sidemenuitem.module.css';
 
 interface SideMenuItemProps {
   className?: string;
@@ -18,7 +19,7 @@ export const SideMenuItem = ({ className, children, property1 = "Enabled" }: Sid
         from the JSON is used as a fallback. The primary content should be passed
         via the 'children' prop.
       */}
-      <div className="text_60b58e74">
+      <div className={styles.text_60b58e74}>
         {children || "Last 07 days"}
       </div>
     </div>

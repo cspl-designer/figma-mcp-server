@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './dateinput.module.css';
 
 interface DateInputProps {
   className?: string;
@@ -29,7 +30,7 @@ export const DateInput: React.FC<DateInputProps> = ({
       <span className="text_698cbe93">
         {fromText || "From "}
       </span>
-      <span className="text_3b0526dd">
+      <span className={styles.text_3b0526dd}>
         {datePlaceholder || "MM/DD/YYYY"}
       </span>
     </>

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './sidemenuitem.module.css';
 
 interface SideMenuItemProps {
   className?: string;
@@ -12,13 +13,13 @@ export const SideMenuItem = ({ className, children, property1 = "Enabled" }: Sid
   // would be used here to render different structures based on the 'property1' prop.
 
   return (
-    <div className={className || "side_menu_item_3d27dec"}>
+    <div className={styles.side_menu_item_3d27dec}>
       {/*
         Following the "Empty Vessel" rule (Rule A), the text content "Last 07 days"
         from the JSON is used as a fallback. The primary content should be passed
         via the 'children' prop.
       */}
-      <div className="text_60b58e74">
+      <div className={styles.text_60b58e74}>
         {children || "Last 07 days"}
       </div>
     </div>

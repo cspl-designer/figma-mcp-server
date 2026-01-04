@@ -74,8 +74,8 @@ export const CalendarDateRange = ({
           <DateInput
             className={styles.date_input_7fa56797}
             filled={false}
+            datePlaceholder="MM/DD/YYYY"
           >
-            {"From"}
           </DateInput>
           <Calandar
             className={styles.calandar_4a7987bf}
@@ -88,8 +88,8 @@ export const CalendarDateRange = ({
           <DateInput
             className={styles.date_input_7fa56797}
             filled={false}
+            datePlaceholder="MM/DD/YYYY"
           >
-            {"From"}
           </DateInput>
           <Calandar
             className={styles.calandar_4a7987bf}
