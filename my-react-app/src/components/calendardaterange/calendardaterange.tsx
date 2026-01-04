@@ -1,33 +1,50 @@
 import React from 'react';
-import styles from './calendardaterange.module.css';
-import { AssistiveTexts } from '../assistivetexts/assistivetexts';
+import styles from './CalendarDateRange.module.css';
+import AssistiveTexts from '../assistivetexts/assistivetexts';
 import { Button } from '../button/button';
 import { CalenderSideMenu } from '../calendersidemenu/calendersidemenu';
-import { DateInput } from '../dateinput/dateinput';
-import { Calandar } from '../calandar/calandar';
+import DateInput from '../dateinput/dateinput';
+import Calandar from '../calandar/calandar';
 
-interface CalendarDateRangeProps {
+export interface CalendarDateRangeProps {
   className?: string;
-  children?: React.ReactNode;
-  status?: 'Default';
-  state?: 'Enabled';
+  status?: "Default";
+  state?: "Enabled";
+  title?: string;
+  assistiveTextContent?: string;
+  cancelButtonText?: string;
+  applyButtonText?: string;
+  sideMenuContent?: string;
+  fromDateInputLabel?: string;
+  fromCalendarIcon?: string;
+  toDateInputLabel?: string;
+  toCalendarIcon?: string;
 }
 
-export const CalendarDateRange = ({
+export const CalendarDateRange: React.FC<CalendarDateRangeProps> = ({
   className,
-  children,
-  status = 'Default',
-  state = 'Enabled',
-}: CalendarDateRangeProps) => {
+  status = "Default",
+  state = "Enabled",
+  title = "Select Date Range",
+  assistiveTextContent = "0 dates selected",
+  cancelButtonText = "Cancel",
+  applyButtonText = "Apply",
+  sideMenuContent = "Last 07 days",
+  fromDateInputLabel = "From",
+  fromCalendarIcon = "chevron-left",
+  toDateInputLabel = "From",
+  toCalendarIcon = "chevron-left",
+}) => {
   // The provided layout data corresponds to the "Default" status and "Enabled" state variant.
-  // If other variants were provided with different structures, a switch/case would be used here.
+  // No dynamic switch is needed for the root component based on these props,
+  // as the structure is already resolved for this specific variant.
 
   return (
-    <div className={[styles.calendar___daterange_5163e54d, className].filter(Boolean).join(' ')}>
+    <div className={`${styles.calendar___daterange_5163e54d} ${className || ""}`}>
       <div className={styles.header_fce36f8}>
         <div className={styles.title_erapper_35fbfad9}>
           <div className={styles.select_date_range_7b130285}>
-            {children || "Select Date Range"}
+            {title}
           </div>
           <AssistiveTexts
             className={styles.assistivetexts_37e9b526}
@@ -35,31 +52,31 @@ export const CalendarDateRange = ({
             size="Medium"
             theme="Light"
           >
-            {"0 dates selected"}
+            {assistiveTextContent}
           </AssistiveTexts>
         </div>
         <div className={styles.actions_34b30789}>
           <Button
             className={styles.button_1cd50b61}
             size="Small"
-            iconleft={false}
-            iconright={false}
+            iconleft="False"
+            iconright="False"
             emphasis="Tertiary"
             state="Normal"
-            deletable={false}
+            deletable="False"
           >
-            {"Cancel"}
+            {cancelButtonText}
           </Button>
           <Button
             className={styles.button_32b55cee}
             size="Small"
-            iconleft={false}
-            iconright={false}
+            iconleft="False"
+            iconright="False"
             emphasis="Secondary"
             state="Disabled"
-            deletable={false}
+            deletable="False"
           >
-            {"Apply"}
+            {applyButtonText}
           </Button>
         </div>
       </div>
@@ -68,37 +85,39 @@ export const CalendarDateRange = ({
           className={styles.calender_side_menu_16d5f722}
           property1="Calender side menu"
         >
-          {"Last 07 days"}
+          {sideMenuContent}
         </CalenderSideMenu>
         <div className={styles.from_side_42e9fda2}>
           <DateInput
             className={styles.date_input_7fa56797}
-            filled={false}
-            datePlaceholder="MM/DD/YYYY"
+            filled="False"
           >
+            {fromDateInputLabel}
           </DateInput>
           <Calandar
             className={styles.calandar_4a7987bf}
             type="DisplayDays"
           >
-            {"chevron-left"}
+            {fromCalendarIcon}
           </Calandar>
         </div>
         <div className={styles.to_side_52676260}>
           <DateInput
             className={styles.date_input_7fa56797}
-            filled={false}
-            datePlaceholder="MM/DD/YYYY"
+            filled="False"
           >
+            {toDateInputLabel}
           </DateInput>
           <Calandar
             className={styles.calandar_4a7987bf}
             type="DisplayDays"
           >
-            {"chevron-left"}
+            {toCalendarIcon}
           </Calandar>
         </div>
       </div>
     </div>
   );
 };
+
+export default CalendarDateRange;

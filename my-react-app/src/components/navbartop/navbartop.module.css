@@ -1,0 +1,352 @@
+.navbar___top_3233c0b5 {
+
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px -1px #0000001f, 0px 4px 5px 0px #00000014, 0px 1px 10px 0px #000000d;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  gap: var(--spacing-24, 24px);
+  height: 64px;
+  padding: var(--spacing-16, 16px);
+  width: 1344px;
+
+}
+
+.menu_bar_1fb53726 {
+
+  align-items: flex-end;
+  box-sizing: border-box;
+  color: var(--color-roles-dark-disabled);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 7px;
+  font-weight: 900;
+  gap: 6px;
+  height: 21px;
+  line-height: 7px;
+  width: 28px;
+
+}
+
+.rectangle_1015_6adb834a {
+
+  background-color: var(--color-roles-dark-disabled);
+  border-radius: var(--radius-2, 2px);
+  box-sizing: border-box;
+  display: block;
+  flex-shrink: 0;
+  height: 3px;
+  width: 28px;
+
+}
+
+.frame_813351_40006e37 {
+
+  box-sizing: border-box;
+  color: var(--color-roles-dark-disabled);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 7px;
+  font-weight: 900;
+  height: 3px;
+  justify-content: flex-end;
+  line-height: 7px;
+  width: 28px;
+
+}
+
+.arrow_alt_left_72ad7e2f {
+
+  box-sizing: border-box;
+  color: var(--color-roles-dark-disabled);
+  font-family: "Font Awesome 6 Pro";
+  font-size: 7px;
+  font-weight: 900;
+  line-height: 7px;
+
+}
+
+.rectangle_1016_6acde028 {
+
+  background-color: var(--color-roles-dark-disabled);
+  border-radius: var(--radius-2, 2px);
+  box-sizing: border-box;
+  display: block;
+  flex-shrink: 0;
+  height: 3px;
+  width: 19px;
+
+}
+
+.frame_812993_73a9881c {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 24px;
+  font-weight: 300;
+  gap: var(--spacing-24, 24px);
+  height: 32px;
+  line-height: 24px;
+  width: 1312px;
+
+}
+
+.tenent_logo_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.frame_816494_c6aa44a {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 24px;
+  font-weight: 300;
+  gap: var(--spacing-32, 32px);
+  height: 32px;
+  justify-content: flex-end;
+  line-height: 24px;
+  width: 178px;
+
+}
+
+.group_1684_11c05553 {
+
+  border-radius: var(--radius-16, 16px);
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: block;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 24px;
+  font-weight: 300;
+  height: 32px;
+  line-height: 24px;
+  width: 50px;
+
+}
+
+.bell_d9ad09b {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  font-family: "Font Awesome 6 Pro";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+
+}
+
+.expand_42c0fb7a {
+
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  font-family: "Font Awesome 6 Pro";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+.switch_circle_text___on_6896d671 {
+
+  align-items: center;
+  background-color: var(--surfaces-layer-05);
+  border-radius: var(--radius-16, 16px);
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 16px;
+  font-weight: 900;
+  gap: var(--spacing-16, 16px);
+  height: 28px;
+  justify-content: center;
+  line-height: 20px;
+  padding: var(--spacing-4, 4px);
+  width: 54px;
+
+}
+
+.default_74849c2b {
+
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.on_text_42457b3c {
+
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  font-family: "Font Awesome 6 Pro";
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+
+}
+
+.logos___nav_bar_c2d0934 {
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  gap: 10px;
+  height: 32px;
+  justify-content: center;
+  width: 644px;
+
+}
+
+.tenent_logo_37883666 {
+
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  gap: var(--spacing-8, 8px);
+  height: 32px;
+  width: 150px;
+
+}
+
+.frame_813401_189d804f {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 24px;
+  font-weight: 300;
+  gap: var(--spacing-32, 32px);
+  height: 32px;
+  justify-content: flex-end;
+  line-height: 24px;
+  width: 644px;
+
+}
+
+.badge___count_384fc96b {
+
+  align-items: center;
+  background-color: var(--alert-critical-critical-primary-background);
+  border-radius: var(--radius-16, 16px);
+  box-sizing: border-box;
+  color: var(--text-text-on-color);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-extra-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-semibold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-semibold-font-weight, 600);
+  gap: 10px;
+  height: 16px;
+  line-height: var(--bodytext-extra-small-semibold-line-height, 16px);
+  padding: 0px var(--spacing-8, 8px) 0px var(--spacing-8, 8px);
+  width: 37px;
+
+}
+
+.frame_1683_7476b2f0 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 20px;
+  font-weight: 400;
+  gap: 10px;
+  height: 28px;
+  justify-content: flex-end;
+  line-height: 20px;
+  width: 32px;
+
+}
+
+.default_3d3fc1c3 {
+
+  border-radius: 77px;
+  box-shadow: 0px 2px 4px 0px #00230b33;
+  box-sizing: border-box;
+  display: block;
+  flex-shrink: 0;
+  height: 18px;
+  width: 18px;
+
+}
+
+.content_1c994aba {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 16px;
+  font-weight: 900;
+  height: 20px;
+  justify-content: center;
+  line-height: 20px;
+  width: 16px;
+
+}
+
+.group_1684_6927f65 {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: block;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 24px;
+  font-weight: 300;
+  height: 28px;
+  line-height: 24px;
+  width: 32px;
+
+}
+
+.image_2f28980f {
+
+  box-sizing: border-box;
+  color: var(--alert-success-success-primary-background);
+  display: block;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 8px;
+  font-weight: 900;
+  height: 32px;
+  line-height: 8px;
+  width: 32px;
+
+}

@@ -1,4 +1,4 @@
-/* 🎨 GLOBAL DESIGN TOKENS - Generated: 2025-12-26T14:33:58.214Z */
+/* 🎨 GLOBAL DESIGN TOKENS - Generated: 2026-01-04T18:20:29.807Z */
 :root {
   /* --- COLORS --- */
   --alert-success-success-text: #178737;
@@ -37,11 +37,23 @@
   --alert-critical-critical-secondary-background: #fceaeb;
   --brand-text-default: #004dcb;
   --brand-background-tertiary-background: #e6edfa;
-  --brand-background-primary-background: #004dcb;
   --brand-text-disabled: #6b98e1;
   --borders-brand-primary-disabled: #6b98e1;
   --surfaces-layer-02: #f5f5f5;
   --disabled-text: #a8a8a8;
+  --surfaces-layer-03: #e6e6e6;
+  --table-fill-light: #ffffff;
+  --borders-default-border-subtle: #e0e0e0;
+  --alert-success-success-text: #178737;
+  --table-fill-dark: #f5f5f5;
+  --text-subtle: #3d3d3d;
+  --color-roles-dark-disabled: #606060;
+  --text-text: #292929;
+  --text-text-on-color: #ffffff;
+  --alert-critical-critical-primary-background: #c92830;
+  --surfaces-layer-05: #d9d9d9;
+  --alert-success-success-primary-background: #178737;
+  --surfaces-background: #ffffff;
   --brand-text-default: #004dcb;
   --borders-brand-primary-default: #004dcb;
   --surfaces-layer-02: #f5f5f5;
@@ -51,7 +63,6 @@
   --brand-background-tertiary-background: #e6edfa;
   --borders-brand-primary-default: #004dcb;
   --text-subtle: #3d3d3d;
-  --color-roles-dark-disabled: #606060;
   --text-text-on-color: #ffffff;
   --alert-critical-critical-primary-background: #c92830;
   --surfaces-layer-05: #d9d9d9;
@@ -63,141 +74,184 @@
 
   /* --- TYPOGRAPHY --- */
   /* Titles/PageTitle/Semibold */
+  --titles-pagetitle-semibold-font-family: "Open Sans";
   --titles-pagetitle-semibold-font-size: 24px;
   --titles-pagetitle-semibold-font-weight: 600;
   --titles-pagetitle-semibold-line-height: 32px;
   /* BodyText/Regular/Semibold */
+  --bodytext-regular-semibold-font-family: "Open Sans";
   --bodytext-regular-semibold-font-size: 16px;
   --bodytext-regular-semibold-font-weight: 600;
   --bodytext-regular-semibold-line-height: 16px;
   /* BodyText/Small/Medium */
+  --bodytext-small-medium-font-family: "Open Sans";
   --bodytext-small-medium-font-size: 14px;
   --bodytext-small-medium-font-weight: 500;
   --bodytext-small-medium-line-height: 16px;
   /* BodyText/Large/Semibold */
+  --bodytext-large-semibold-font-family: "Open Sans";
   --bodytext-large-semibold-font-size: 18px;
   --bodytext-large-semibold-font-weight: 600;
   --bodytext-large-semibold-line-height: 16px;
   /* BodyText/Regular/Medium */
+  --bodytext-regular-medium-font-family: "Open Sans";
   --bodytext-regular-medium-font-size: 16px;
   --bodytext-regular-medium-font-weight: 500;
   --bodytext-regular-medium-line-height: 16px;
   /* BodyText/Extra Small/Semibold */
+  --bodytext-extra-small-semibold-font-family: "Open Sans";
   --bodytext-extra-small-semibold-font-size: 12px;
   --bodytext-extra-small-semibold-font-weight: 600;
   --bodytext-extra-small-semibold-line-height: 16px;
   /* BodyText/Small/Semibold */
+  --bodytext-small-semibold-font-family: "Open Sans";
   --bodytext-small-semibold-font-size: 14px;
   --bodytext-small-semibold-font-weight: 600;
   --bodytext-small-semibold-line-height: 16px;
   /* Headers/H1 */
+  --headers-h1-font-family: "Open Sans";
   --headers-h1-font-size: 40px;
   --headers-h1-font-weight: 600;
   --headers-h1-line-height: 32px;
   /* Display Md/Regular */
+  --display-md-regular-font-family: "Open Sans";
   --display-md-regular-font-size: 32px;
   --display-md-regular-font-weight: 400;
   --display-md-regular-line-height: 52px;
   /* Display Md/Semibold */
+  --display-md-semibold-font-family: "Open Sans";
   --display-md-semibold-font-size: 32px;
   --display-md-semibold-font-weight: 600;
   --display-md-semibold-line-height: 52px;
   /* BodyText/Regular/Bold */
+  --bodytext-regular-bold-font-family: "Open Sans";
   --bodytext-regular-bold-font-size: 16px;
   --bodytext-regular-bold-font-weight: 700;
   --bodytext-regular-bold-line-height: 16px;
   /* Paragraphs/Small/semibold */
+  --paragraphs-small-semibold-font-family: "Open Sans";
   --paragraphs-small-semibold-font-size: 14px;
   --paragraphs-small-semibold-font-weight: 600;
   --paragraphs-small-semibold-line-height: 16px;
   /* BodyText/Small/Bold */
+  --bodytext-small-bold-font-family: "Open Sans";
   --bodytext-small-bold-font-size: 14px;
   --bodytext-small-bold-font-weight: 700;
   --bodytext-small-bold-line-height: 16px;
   /* Paragraphs/ExtraSmall/semibold */
+  --paragraphs-extrasmall-semibold-font-family: "Open Sans";
   --paragraphs-extrasmall-semibold-font-size: 12px;
   --paragraphs-extrasmall-semibold-font-weight: 600;
   --paragraphs-extrasmall-semibold-line-height: 16px;
   /* Headers/H2 */
+  --headers-h2-font-family: "Open Sans";
   --headers-h2-font-size: 32px;
   --headers-h2-font-weight: 600;
   --headers-h2-line-height: 24px;
   /* BodyText/Extra Small/Bold */
+  --bodytext-extra-small-bold-font-family: "Open Sans";
   --bodytext-extra-small-bold-font-size: 12px;
   --bodytext-extra-small-bold-font-weight: 700;
   --bodytext-extra-small-bold-line-height: 16px;
+  /* BodyText/Extra Small/Medium */
+  --bodytext-extra-small-medium-font-family: "Open Sans";
+  --bodytext-extra-small-medium-font-size: 12px;
+  --bodytext-extra-small-medium-font-weight: 500;
+  --bodytext-extra-small-medium-line-height: 16px;
   /* Titles/Headings/Semibold */
+  --titles-headings-semibold-font-family: "Open Sans";
   --titles-headings-semibold-font-size: 22px;
   --titles-headings-semibold-font-weight: 600;
   --titles-headings-semibold-line-height: 24px;
   /* BodyText/Large/Bold */
+  --bodytext-large-bold-font-family: "Open Sans";
   --bodytext-large-bold-font-size: 18px;
   --bodytext-large-bold-font-weight: 700;
   --bodytext-large-bold-line-height: 16px;
   /* Titles/Headings/Semibold */
+  --titles-headings-semibold-font-family: "Open Sans";
   --titles-headings-semibold-font-size: 22px;
   --titles-headings-semibold-font-weight: 600;
   --titles-headings-semibold-line-height: 24px;
   /* BodyText/Small/Bold */
+  --bodytext-small-bold-font-family: "Open Sans";
   --bodytext-small-bold-font-size: 14px;
   --bodytext-small-bold-font-weight: 700;
   --bodytext-small-bold-line-height: 16px;
   /* Headers/H6 */
+  --headers-h6-font-family: "Open Sans";
   --headers-h6-font-size: 18px;
   --headers-h6-font-weight: 600;
   --headers-h6-line-height: 24px;
   /* BodyText/Large/Bold */
+  --bodytext-large-bold-font-family: "Open Sans";
   --bodytext-large-bold-font-size: 18px;
   --bodytext-large-bold-font-weight: 700;
   --bodytext-large-bold-line-height: 16px;
   /* BodyText/Regular/Bold */
+  --bodytext-regular-bold-font-family: "Open Sans";
   --bodytext-regular-bold-font-size: 16px;
   --bodytext-regular-bold-font-weight: 700;
   --bodytext-regular-bold-line-height: 16px;
   /* BodyText/Regular/Semibold */
+  --bodytext-regular-semibold-font-family: "Open Sans";
   --bodytext-regular-semibold-font-size: 16px;
   --bodytext-regular-semibold-font-weight: 600;
   --bodytext-regular-semibold-line-height: 16px;
   /* Headers/H6 */
+  --headers-h6-font-family: "Open Sans";
   --headers-h6-font-size: 18px;
   --headers-h6-font-weight: 600;
   --headers-h6-line-height: 24px;
   /* BodyText/Extra Small/Medium */
+  --bodytext-extra-small-medium-font-family: "Open Sans";
   --bodytext-extra-small-medium-font-size: 12px;
   --bodytext-extra-small-medium-font-weight: 500;
   --bodytext-extra-small-medium-line-height: 16px;
   /* BodyText/Extra Small/Semibold */
+  --bodytext-extra-small-semibold-font-family: "Open Sans";
   --bodytext-extra-small-semibold-font-size: 12px;
   --bodytext-extra-small-semibold-font-weight: 600;
   --bodytext-extra-small-semibold-line-height: 16px;
   /* Titles/PageTitle/Semibold */
+  --titles-pagetitle-semibold-font-family: "Open Sans";
   --titles-pagetitle-semibold-font-size: 24px;
   --titles-pagetitle-semibold-font-weight: 600;
   --titles-pagetitle-semibold-line-height: 32px;
   /* BodyText/Small/Semibold */
+  --bodytext-small-semibold-font-family: "Open Sans";
   --bodytext-small-semibold-font-size: 14px;
   --bodytext-small-semibold-font-weight: 600;
   --bodytext-small-semibold-line-height: 16px;
   /* BodyText/Small/Medium */
+  --bodytext-small-medium-font-family: "Open Sans";
   --bodytext-small-medium-font-size: 14px;
   --bodytext-small-medium-font-weight: 500;
   --bodytext-small-medium-line-height: 16px;
 
-  /* --- SPACING --- */
+  /* --- SPACING SCALE --- */
   --spacing-0: 0px;
+  --spacing-2: 2px;
   --spacing-4: 4px;
   --spacing-8: 8px;
   --spacing-12: 12px;
   --spacing-16: 16px;
+  --spacing-20: 20px;
   --spacing-24: 24px;
   --spacing-32: 32px;
+  --spacing-40: 40px;
   --spacing-48: 48px;
   --spacing-64: 64px;
+  --spacing-80: 80px;
 
-  /* --- RADIUS --- */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
+  /* --- RADIUS SCALE --- */
+  --radius-0: 0px;
+  --radius-2: 2px;
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-24: 24px;
   --radius-full: 9999px;
 
 }

@@ -11,16 +11,18 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 
-import { RecursiveTest } from './components/recursivetest/recursivetest';
+// import { RecursiveTest } from './components/recursivetest/recursivetest';
 import { PageDateRange } from './components/pagedaterange/pagedaterange';
+import { ManagePayroll } from './components/managepayroll/managepayroll';
 
 function App() {
   return (
     <Router>
       <Routes>
 
-        <Route path="/recursivetest" element={<RecursiveTest />} />
+        {/* <Route path="/recursivetest" element={<RecursiveTest />} /> */}
         <Route path="/test" element={<PageDateRange />} />
+        <Route path="/payroll" element={<ManagePayroll />} />
       </Routes>
     </Router>
   );

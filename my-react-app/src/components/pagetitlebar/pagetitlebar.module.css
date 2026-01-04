@@ -1,43 +1,58 @@
-.button_6f79d925 {
+.page_title_bar_604f7b98 {
 
   align-items: center;
-  border-radius: var(--radius-4, 4px);
+  background-color: var(--surfaces-layer-01);
+  border-bottom: 1px solid var(--borders-default-border-strong);
   box-sizing: border-box;
-  color: var(--brand-text-default);
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: var(--titles-pagetitle-semibold-font-family, "Open Sans");
+  font-size: var(--titles-pagetitle-semibold-font-size, 24px);
+  font-weight: var(--titles-pagetitle-semibold-font-weight, 600);
+  gap: 10px;
+  height: 72px;
+  justify-content: space-between;
+  line-height: var(--titles-pagetitle-semibold-line-height, 32px);
+  padding: var(--spacing-16, 16px) 0px var(--spacing-16, 16px) 0px;
+  width: 1312px;
+
+}
+
+.title_106e3238 {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  font-family: var(--titles-pagetitle-semibold-font-family, "Open Sans");
+  font-size: var(--titles-pagetitle-semibold-font-size, 24px);
+  font-weight: var(--titles-pagetitle-semibold-font-weight, 600);
+  line-height: var(--titles-pagetitle-semibold-line-height, 32px);
+
+}
+
+.button_container_3c720891 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-text-on-color);
   display: flex;
   flex-direction: row;
   flex-shrink: 0;
-  font-family: "Font Awesome 6 Pro";
-  font-size: 14px;
-  font-weight: 400;
-  gap: var(--spacing-4, 4px);
-  height: 40px;
-  justify-content: center;
-  line-height: 14px;
-  padding: var(--spacing-12, 12px) var(--spacing-8, 8px) var(--spacing-12, 12px) var(--spacing-8, 8px);
-  width: 77px;
-
-}
-
-.check_7ce7f222 {
-
-  box-sizing: border-box;
-  color: var(--brand-text-default);
-  font-family: "Font Awesome 6 Pro";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-
-}
-
-.button_73ce4333 {
-
-  box-sizing: border-box;
-  color: var(--brand-text-default);
   font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
   font-size: var(--bodytext-regular-semibold-font-size, 16px);
   font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  gap: var(--spacing-16, 16px);
+  height: 40px;
   line-height: var(--bodytext-regular-semibold-line-height, 16px);
+  width: 125px;
+
+}
+
+.button_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
 
 }
 
@@ -82,36 +97,5 @@
   line-height: var(--bodytext-regular-semibold-line-height, 16px);
   padding: var(--spacing-12, 12px) var(--spacing-16, 16px) var(--spacing-12, 12px) var(--spacing-16, 16px);
   width: 125px;
-
-}
-
-.button_text_68700fff {
-
-  box-sizing: border-box;
-  color: var(--text-text-on-color);
-  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
-  font-size: var(--bodytext-regular-semibold-font-size, 16px);
-  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
-  line-height: var(--bodytext-regular-semibold-line-height, 16px);
-
-}
-
-.frame_1000003627_26a05b19 {
-
-  align-items: center;
-  border-bottom: 1px solid var(--borders-brand-primary-default);
-  box-sizing: border-box;
-  color: var(--brand-text-default);
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 0;
-  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
-  font-size: var(--bodytext-regular-semibold-font-size, 16px);
-  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
-  gap: 10px;
-  height: 16px;
-  justify-content: center;
-  line-height: var(--bodytext-regular-semibold-line-height, 16px);
-  width: 43px;
 
 }

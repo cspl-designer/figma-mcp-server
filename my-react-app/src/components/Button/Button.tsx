@@ -2,14 +2,15 @@ import React from 'react';
 import styles from './Button.module.css';
 
 interface ButtonProps {
-  size: "Small";
-  iconleft: "False";
-  iconright: "False";
-  emphasis: "Tertiary" | "Secondary";
-  state: "Normal" | "Disabled";
+  size: "Regular";
+  iconleft: "True" | "False";
+  iconright: "True" | "False";
+  emphasis: "Primary" | "Secondary" | "Tertiary";
+  state: "Normal";
   deletable: "False";
   className?: string;
-  children?: React.ReactNode;
+  children?: React.ReactNode; // Main button text content
+  iconText?: string; // Text content for the icon
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -21,37 +22,50 @@ export const Button: React.FC<ButtonProps> = ({
   deletable,
   className,
   children,
+  iconText,
 }) => {
-  const currentProps = { size, iconleft, iconright, emphasis, state, deletable };
-  const propsKey = JSON.stringify(currentProps);
+  let rootClassName = '';
+  const variantKey = `${size}-${iconleft}-${iconright}-${emphasis}-${state}-${deletable}`;
 
-  switch (propsKey) {
-    case '{"size":"Small","iconleft":"False","iconright":"False","emphasis":"Tertiary","state":"Normal","deletable":"False"}':
-      return (
-        <div className={`${styles.button_1cd50b61} ${className || ''}`}>
-          <div className={styles.frame_1000003627_5305f5d1}>
-            <span className={styles.button_446e7135}>
-              {children || "Cancel"}
-            </span>
-          </div>
-        </div>
-      );
-    case '{"size":"Small","iconleft":"False","iconright":"False","emphasis":"Secondary","state":"Disabled","deletable":"False"}':
-      return (
-        <div className={`${styles.button_32b55cee} ${className || ''}`}>
-          <span className={styles.button_34c76446}>
-            {children || "Apply"}
-          </span>
-        </div>
-      );
+  switch (variantKey) {
+    case 'Regular-False-False-Secondary-Normal-False':
+      rootClassName = styles.button_e12a434;
+      break;
+    case 'Regular-False-False-Primary-Normal-False':
+      rootClassName = styles.button_575fe6e6;
+      break;
+    case 'Regular-True-False-Tertiary-Normal-False':
+      rootClassName = styles.button_6f79d925;
+      break;
     default:
-      // Default case matches the current instance provided in the layout data.
-      return (
-        <div className={`${styles.button_32b55cee} ${className || ''}`}>
-          <span className={styles.button_34c76446}>
-            {children || "Apply"}
-          </span>
-        </div>
-      );
+      // Fallback to the current instance's class if no specific variant matches
+      rootClassName = styles.button_6f79d925;
+      break;
   }
+
+  return (
+    <div className={`${rootClassName} ${className || ''}`}>
+      {iconleft === "True" && iconText && (
+        <span className={styles.check_7ce7f222}>{iconText}</span>
+      )}
+      {iconleft === "True" && (
+        <div className={styles.frame_1000003627_26a05b19}>
+          <span className={styles.button_73ce4333}>{children}</span>
+        </div>
+      )}
+      {iconleft === "False" && (
+        <span
+          className={
+            emphasis === "Primary"
+              ? styles.button_text_68700fff
+              : styles.button_73ce4333
+          }
+        >
+          {children}
+        </span>
+      )}
+    </div>
+  );
 };
+
+export default Button;

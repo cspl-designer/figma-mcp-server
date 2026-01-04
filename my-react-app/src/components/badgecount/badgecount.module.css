@@ -1,0 +1,31 @@
+.badge___count_384fc96b {
+
+  align-items: center;
+  background-color: var(--alert-critical-critical-primary-background);
+  border-radius: var(--radius-16, 16px);
+  box-sizing: border-box;
+  color: var(--text-text-on-color);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-extra-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-semibold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-semibold-font-weight, 600);
+  gap: 10px;
+  height: 16px;
+  line-height: var(--bodytext-extra-small-semibold-line-height, 16px);
+  padding: 0px var(--spacing-8, 8px) 0px var(--spacing-8, 8px);
+  width: 37px;
+
+}
+
+.number_56375605 {
+
+  box-sizing: border-box;
+  color: var(--text-text-on-color);
+  font-family: var(--bodytext-extra-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-semibold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-semibold-font-weight, 600);
+  line-height: var(--bodytext-extra-small-semibold-line-height, 16px);
+
+}

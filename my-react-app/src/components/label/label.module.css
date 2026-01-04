@@ -1,0 +1,27 @@
+.label_4a62a0b4 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: 10px;
+  height: 16px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 42px;
+
+}
+
+.label_text_10ccb376 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+
+}

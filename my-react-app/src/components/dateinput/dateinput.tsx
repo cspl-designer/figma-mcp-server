@@ -1,44 +1,43 @@
 import React from 'react';
-import styles from './dateinput.module.css';
+import styles from './DateInput.module.css';
 
 interface DateInputProps {
   className?: string;
-  children?: React.ReactNode;
+  label?: string;
+  value?: string;
   filled?: "True" | "False";
-  fromText?: string;
-  datePlaceholder?: string;
 }
 
 export const DateInput: React.FC<DateInputProps> = ({
   className,
-  children,
-  filled = "False", // Default to "False" as per the layout data
-  fromText,
-  datePlaceholder,
+  label,
+  value,
+  filled = "False", // Default based on the provided layout data
 }) => {
-  // The layout data only provides one variant for filled: "False".
-  // If there were other variants, a switch/case would be used here
-  // to determine the structure and class names based on the 'filled' prop.
-  // For this specific layout, the structure is fixed for the "False" variant.
+  let rootClassName = '';
 
-  // According to the "Empty Vessel" rule, if `children` are provided,
-  // they take precedence over the default internal structure.
-  // Otherwise, the component renders its default structure using specific props
-  // or their hardcoded fallbacks from the JSON.
-  const content = children || (
-    <>
-      <span className="text_698cbe93">
-        {fromText || "From "}
-      </span>
-      <span className={styles.text_3b0526dd}>
-        {datePlaceholder || "MM/DD/YYYY"}
-      </span>
-    </>
-  );
+  // Handle variants for the root element's class name
+  switch (filled) {
+    case "False":
+      rootClassName = styles.date_input_7fa56797;
+      break;
+    // Add cases for other 'filled' states if they exist in _known_variants
+    // For example:
+    // case "True":
+    //   rootClassName = styles.date_input_filled_true_class;
+    //   break;
+    default:
+      // Fallback to the default state's class if an unknown 'filled' value is provided
+      rootClassName = styles.date_input_7fa56797;
+      break;
+  }
 
   return (
-    <div className={`date_input_7fa56797 ${className || ''}`}>
-      {content}
+    <div className={`${rootClassName} ${className || ''}`}>
+      <span className={styles.text_698cbe93}>{label || "From "}</span>
+      <span className={styles.text_3b0526dd}>{value || "MM/DD/YYYY"}</span>
     </div>
   );
 };
+
+export default DateInput;

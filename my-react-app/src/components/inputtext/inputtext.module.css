@@ -1,0 +1,76 @@
+.input_text_350c7658 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-8, 8px);
+  height: 64px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 240px;
+
+}
+
+.label_container_39d7949d {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-4, 4px);
+  height: 16px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 46px;
+
+}
+
+.required_icon_6ec8e80c {
+
+  box-sizing: border-box;
+  color: var(--alert-critical-critical-text);
+  font-family: "Font Awesome 6 Pro";
+  font-size: 8px;
+  font-weight: 900;
+  line-height: 8px;
+
+}
+
+.label_10ccb376 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+
+}
+
+.input_container_d3ad5b1 {
+
+  background-color: var(--surfaces-layer-01);
+  border-radius: var(--radius-4, 4px);
+  border: 1px solid var(--borders-default-border-strong);
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  height: 40px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  padding: var(--spacing-12, 12px) var(--spacing-8, 8px) var(--spacing-12, 12px) var(--spacing-8, 8px);
+  width: 240px;
+
+}

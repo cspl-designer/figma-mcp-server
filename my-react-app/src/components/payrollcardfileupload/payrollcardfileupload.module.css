@@ -1,0 +1,481 @@
+.payroll_card___file_upload_6ca2c810 {
+
+  align-items: center;
+  border-bottom: 1px solid var(--borders-alert-critical-default);
+  border-left: 7px solid var(--borders-alert-critical-default);
+  border-radius: var(--radius-4, 4px);
+  border-right: 1px solid var(--borders-alert-critical-default);
+  border-top: 1px solid var(--borders-alert-critical-default);
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  height: 156px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  padding: 1px;
+  width: 1312px;
+
+}
+
+.file_info_378a875f {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-24, 24px);
+  height: 154px;
+  justify-content: space-between;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  padding: var(--spacing-16, 16px);
+  width: 1115px;
+
+}
+
+.file_details_4180848a {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-16, 16px);
+  height: 122px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 393px;
+
+}
+
+.file_name_container_5eff3040 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-4, 4px);
+  height: 38px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 371px;
+
+}
+
+.file_name_label_10ccb376 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+
+}
+
+.file_name_82e556 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-title);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 600;
+  gap: var(--spacing-8, 8px);
+  height: 18px;
+  line-height: 20px;
+  width: 371px;
+
+}
+
+.payroll_icons_74849c2b {
+
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.file_name_text_12e79c3c {
+
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  font-family: var(--bodytext-regular-bold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-bold-font-size, 16px);
+  font-weight: var(--bodytext-regular-bold-font-weight, 700);
+  line-height: var(--bodytext-regular-bold-line-height, 16px);
+
+}
+
+.file_date_container_13c154a8 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-8, 8px);
+  height: 16px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 207px;
+
+}
+
+.line_7_678a0d5 {
+
+  box-sizing: border-box;
+
+}
+
+.file_date_details_12257c72 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-8, 8px);
+  height: 16px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 120px;
+
+}
+
+.file_description_60b58e74 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-extra-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-extra-small-semibold-font-size, 12px);
+  font-weight: var(--bodytext-extra-small-semibold-font-weight, 600);
+  line-height: var(--bodytext-extra-small-semibold-line-height, 16px);
+
+}
+
+.company_profile_container_31a32b22 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: var(--spacing-24, 24px);
+  height: 112px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 362px;
+
+}
+
+.company_info_4a2ad6eb {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 22px;
+  height: 112px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 167px;
+
+}
+
+.company_name_container_74161b9b {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: var(--spacing-4, 4px);
+  height: 36px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 167px;
+
+}
+
+.company_label_44608e89 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+
+}
+
+.company_name_128a2945 {
+
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-semibold-font-size, 16px);
+  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  line-height: var(--bodytext-regular-semibold-line-height, 16px);
+
+}
+
+.plan_details_container_49759566 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 3px;
+  height: 54px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 167px;
+
+}
+
+.plan_details_7b130285 {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-semibold-font-size, 16px);
+  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  line-height: var(--bodytext-regular-semibold-line-height, 16px);
+
+}
+
+.group_name_56110500 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--paragraphs-extrasmall-semibold-font-family, "Open Sans");
+  font-size: var(--paragraphs-extrasmall-semibold-font-size, 12px);
+  font-weight: var(--paragraphs-extrasmall-semibold-font-weight, 600);
+  line-height: var(--paragraphs-extrasmall-semibold-line-height, 16px);
+
+}
+
+.profile_info_4a363432 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 22px;
+  height: 112px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 171px;
+
+}
+
+.profile_name_container_742178e2 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: var(--spacing-4, 4px);
+  height: 36px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 171px;
+
+}
+
+.payroll_details_container_4980f2ad {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-small-medium-font-size, 14px);
+  font-weight: var(--bodytext-small-medium-font-weight, 500);
+  gap: 3px;
+  height: 54px;
+  line-height: var(--bodytext-small-medium-line-height, 16px);
+  width: 171px;
+
+}
+
+.payroll_frequency_3da2198a {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  font-family: var(--paragraphs-small-semibold-font-family, "Open Sans");
+  font-size: var(--paragraphs-small-semibold-font-size, 14px);
+  font-weight: var(--paragraphs-small-semibold-font-weight, 600);
+  line-height: var(--paragraphs-small-semibold-line-height, 16px);
+
+}
+
+.payroll_amount_container_3511bd0 {
+
+  align-items: flex-end;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: 6px;
+  height: 38px;
+  justify-content: center;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 197px;
+
+}
+
+.error_container_277b6e57 {
+
+  align-items: flex-end;
+  background-color: var(--alert-critical-critical-secondary-background);
+  box-sizing: border-box;
+  color: var(--alert-critical-critical-text);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 16px;
+  font-weight: 300;
+  gap: var(--spacing-8, 8px);
+  height: 154px;
+  line-height: 16px;
+  padding: var(--spacing-8, 8px);
+  width: 195px;
+
+}
+
+.inline_action_button_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.error_details_67cc4dc6 {
+
+  box-sizing: border-box;
+  color: var(--borders-alert-critical-default);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--bodytext-regular-bold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-bold-font-size, 16px);
+  font-weight: var(--bodytext-regular-bold-font-weight, 700);
+  gap: var(--spacing-8, 8px);
+  height: 56px;
+  justify-content: center;
+  line-height: var(--bodytext-regular-bold-line-height, 16px);
+  width: 179px;
+
+}
+
+.error_message_249f61b7 {
+
+  box-sizing: border-box;
+  color: var(--borders-alert-critical-default);
+  font-family: var(--bodytext-regular-bold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-bold-font-size, 16px);
+  font-weight: var(--bodytext-regular-bold-font-weight, 700);
+  line-height: var(--bodytext-regular-bold-line-height, 16px);
+
+}
+
+.error_summary_4f096b59 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-8, 8px);
+  height: 16px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 179px;
+
+}
+
+.payroll_icons_70df3668 {
+
+  box-sizing: border-box;
+  color: var(--text-title);
+  display: block;
+  flex-shrink: 0;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 600;
+  height: 18px;
+  line-height: 20px;
+  width: 24px;
+
+}
+
+.inline_action_button_1f482ad8 {
+
+  align-items: center;
+  background-color: var(--surfaces-background);
+  border-radius: 32px;
+  border: 1px solid var(--borders-alert-critical-default);
+  box-sizing: border-box;
+  color: var(--alert-critical-critical-text);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 16px;
+  font-weight: 300;
+  gap: 10px;
+  height: 34px;
+  justify-content: center;
+  line-height: 16px;
+  padding: 5px;
+  width: 34px;
+
+}

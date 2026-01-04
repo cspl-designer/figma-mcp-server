@@ -1,27 +1,44 @@
 import React from 'react';
-import styles from './sidemenuitem.module.css';
+import styles from './SideMenuItem.module.css';
 
 interface SideMenuItemProps {
-  className?: string;
+  property1?: string; // Prop for variant handling, e.g., "Enabled"
   children?: React.ReactNode;
-  property1?: "Enabled"; // Represents the variant property
+  className?: string;
 }
 
-export const SideMenuItem = ({ className, children, property1 = "Enabled" }: SideMenuItemProps) => {
-  // The component manifest currently only provides one variant for 'property1': "Enabled".
-  // If additional variants were defined in '_known_variants', a switch/case statement
-  // would be used here to render different structures based on the 'property1' prop.
+export const SideMenuItem: React.FC<SideMenuItemProps> = ({
+  property1 = "Enabled", // Default to "Enabled" as per the provided layout data
+  children,
+  className,
+}) => {
+  let rootClasses = [styles.side_menu_item_3d27dec];
+
+  // Handle variants based on the 'property1' prop
+  // The _known_variants array indicates how different prop values affect the component.
+  switch (property1) {
+    case "Enabled":
+      // The provided variant for "Enabled" uses the base class.
+      // If there were specific additional classes for this state, they would be added here.
+      break;
+    // Add more cases here for other 'property1' values if they exist in _known_variants
+    // For example:
+    // case "Disabled":
+    //   rootClasses.push(styles.side_menu_item_disabled);
+    //   break;
+    default:
+      // Default case for any unrecognized 'property1' value or base state
+      break;
+  }
+
+  // Combine internal classes with any external className passed to the component
+  const combinedClassName = `${rootClasses.join(' ')} ${className || ''}`.trim();
 
   return (
-    <div className={styles.side_menu_item_3d27dec}>
-      {/*
-        Following the "Empty Vessel" rule (Rule A), the text content "Last 07 days"
-        from the JSON is used as a fallback. The primary content should be passed
-        via the 'children' prop.
-      */}
-      <div className={styles.text_60b58e74}>
-        {children || "Last 07 days"}
-      </div>
+    <div className={combinedClassName}>
+      {children || "Last 07 days"} {/* Rule A: The "Empty Vessel" - renders children or default text */}
     </div>
   );
 };
+
+export default SideMenuItem;

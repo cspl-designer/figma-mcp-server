@@ -1,0 +1,75 @@
+.selectorelements_3422b6a7 {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-regular-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-medium-font-size, 16px);
+  font-weight: var(--bodytext-regular-medium-font-weight, 500);
+  height: 32px;
+  line-height: var(--bodytext-regular-medium-line-height, 16px);
+  width: 54px;
+
+}
+
+.base_suffix_7eaf6303 {
+
+  background-color: var(--surfaces-layer-01);
+  border: 1px solid var(--borders-default-border-strong);
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-regular-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-medium-font-size, 16px);
+  font-weight: var(--bodytext-regular-medium-font-weight, 500);
+  height: 32px;
+  line-height: var(--bodytext-regular-medium-line-height, 16px);
+  padding: var(--spacing-8, 8px) var(--spacing-16, 16px) var(--spacing-8, 8px) var(--spacing-16, 16px);
+  width: 54px;
+
+}
+
+.suffix_2e8db5ba {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  font-family: var(--bodytext-regular-medium-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-medium-font-size, 16px);
+  font-weight: var(--bodytext-regular-medium-font-weight, 500);
+  line-height: var(--bodytext-regular-medium-line-height, 16px);
+
+}
+
+.selectorelements_5c3108ad {
+
+  background-color: var(--brand-background-tertiary-background);
+  border: 1px solid var(--borders-brand-primary-default);
+  box-sizing: border-box;
+  color: var(--brand-text-default);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-semibold-font-size, 16px);
+  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  height: 32px;
+  line-height: var(--bodytext-regular-semibold-line-height, 16px);
+  padding: var(--spacing-8, 8px) var(--spacing-16, 16px) var(--spacing-8, 8px) var(--spacing-16, 16px);
+  width: 59px;
+
+}
+
+.prefix_73ce4333 {
+
+  box-sizing: border-box;
+  color: var(--brand-text-default);
+  font-family: var(--bodytext-regular-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-regular-semibold-font-size, 16px);
+  font-weight: var(--bodytext-regular-semibold-font-weight, 600);
+  line-height: var(--bodytext-regular-semibold-line-height, 16px);
+
+}

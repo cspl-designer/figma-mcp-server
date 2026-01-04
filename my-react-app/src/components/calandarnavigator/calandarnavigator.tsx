@@ -1,28 +1,24 @@
-import React from "react";
-import styles from "./calandarnavigator.module.css";
-import { Links } from "../links/links";
+import React from 'react';
+import styles from './CalandarNavigator.module.css';
+import { Links } from '../links/links';
 
 interface CalandarNavigatorProps {
-  property1?: "Default";
+  property1: 'Default';
   className?: string;
   children?: React.ReactNode;
 }
 
-export const CalandarNavigator = ({
-  property1 = "Default",
+export const CalandarNavigator: React.FC<CalandarNavigatorProps> = ({
+  property1,
   className,
-  children,
-}: CalandarNavigatorProps) => {
+}) => {
   switch (property1) {
-    case "Default":
-    default:
+    case 'Default':
       return (
         <div className={`${styles.calandar_navigator_eefff15} ${className}`}>
           <div className={styles.frame_816715_75b74deb}>
             <div className={styles.icon_2bc55c99}>
-              <span className={styles.chevron_left_563bd6c8}>
-                chevron-left
-              </span>
+              <span className={styles.chevron_left_563bd6c8}>chevron-left</span>
             </div>
           </div>
           <div className={styles.frame_816691_2148eec}>
@@ -55,11 +51,15 @@ export const CalandarNavigator = ({
           </div>
           <div className={styles.frame_816715_75b74deb}>
             <div className={styles.icon_2bc55c99}>
-              <span className={styles.chevron_left_563bd6c8}>
-                chevron-right
-              </span>
+              <span className={styles.chevron_left_563bd6c8}>chevron-right</span>
             </div>
           </div>
+        </div>
+      );
+    default:
+      return (
+        <div className={`${styles.calandar_navigator_eefff15} ${className}`}>
+          {/* Default content or an empty state if no variant matches */}
         </div>
       );
   }

@@ -1,0 +1,92 @@
+.manage_payroll_63e42403 {
+
+  background-color: var(--surfaces-background);
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: var(--titles-pagetitle-semibold-font-family, "Open Sans");
+  font-size: var(--titles-pagetitle-semibold-font-size, 24px);
+  font-weight: var(--titles-pagetitle-semibold-font-weight, 600);
+  height: 836px;
+  line-height: var(--titles-pagetitle-semibold-line-height, 32px);
+  width: 1440px;
+
+}
+
+.appbar_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.main_container_ba7555 {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--titles-pagetitle-semibold-font-family, "Open Sans");
+  font-size: var(--titles-pagetitle-semibold-font-size, 24px);
+  font-weight: var(--titles-pagetitle-semibold-font-weight, 600);
+  height: 836px;
+  line-height: var(--titles-pagetitle-semibold-line-height, 32px);
+  width: 1344px;
+
+}
+
+.search_and_filters_container_4cc22e4f {
+
+  box-sizing: border-box;
+  color: var(--text-text);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: var(--titles-pagetitle-semibold-font-family, "Open Sans");
+  font-size: var(--titles-pagetitle-semibold-font-size, 24px);
+  font-weight: var(--titles-pagetitle-semibold-font-weight, 600);
+  gap: var(--spacing-16, 16px);
+  height: 772px;
+  line-height: var(--titles-pagetitle-semibold-line-height, 32px);
+  padding: 0px var(--spacing-16, 16px) 0px var(--spacing-16, 16px);
+  width: 1344px;
+
+}
+
+.input_container_wrapper_66239da8 {
+
+  align-items: flex-end;
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-16, 16px);
+  height: 64px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 1312px;
+
+}
+
+.selector_group_638c9e97 {
+
+  box-sizing: border-box;
+  color: var(--text-subtleleast);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--bodytext-small-semibold-font-family, "Open Sans");
+  font-size: var(--bodytext-small-semibold-font-size, 14px);
+  font-weight: var(--bodytext-small-semibold-font-weight, 600);
+  gap: var(--spacing-8, 8px);
+  height: 56px;
+  line-height: var(--bodytext-small-semibold-line-height, 16px);
+  width: 112px;
+
+}

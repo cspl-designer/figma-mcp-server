@@ -1,89 +1,50 @@
 import React from 'react';
-import styles from './calandar.module.css';
+import styles from './Calandar.module.css';
 import { CalandarNavigator } from '../calandarnavigator/calandarnavigator';
-import { DayCell } from '../daycell/daycell';
+import DayCell from '../daycell/daycell';
 
 interface CalandarProps {
-  type: 'DisplayDays';
   className?: string;
-  children?: React.ReactNode;
+  type: "DisplayDays"; // Based on _known_variants
 }
 
-export const Calandar = ({ type, className, children }: CalandarProps) => {
+const Calandar: React.FC<CalandarProps> = ({ className, type }) => {
+  // The layout data provided corresponds to the "DisplayDays" variant.
+  // We use a switch statement to handle different 'type' variants.
   switch (type) {
-    case 'DisplayDays':
-      // Data for day names, extracted from the layout data
-      const dayNames = [
-        { text: 'Sun' },
-        { text: 'Mon' },
-        { text: 'Tue' },
-        { text: 'Wed' },
-        { text: 'Thu' },
-        { text: 'Fri' },
-        { text: 'Sat' },
-      ] as const;
-
-      // Data for day cells, extracted from the layout data
+    case "DisplayDays":
+      const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"] as const;
       const dayCellsData = [
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '12' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '1' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '2' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '3' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '4' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '5' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '6' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '7' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '8' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '9' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '10' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '11' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '12' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '13' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '14' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '15' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '16' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '17' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '18' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '19' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '20' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '21' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '22' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '23' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '24' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '25' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '26' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '27' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '28' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '29' },
-        { selectiontype: 'Normal', state: 'Enabled', datetype: 'Default dates', children: '30' },
+        "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14",
+        "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
       ] as const;
 
       return (
-        <div className={[styles.calandar_4a7987bf, className].filter(Boolean).join(' ')}>
+        <div className={`${styles.calandar_4a7987bf} ${className || ''}`}>
           <CalandarNavigator
-            property1="Default"
             className={styles.calandar_navigator_eefff15}
+            property1="Default"
           >
             chevron-left
           </CalandarNavigator>
           <div className={styles.displaygrid_5db2805a}>
             <div className={styles.day_name_28f243c9}>
-              {dayNames.map((day, index) => (
-                <div key={index} className={styles.sun_575bf373}>
-                  {day.text}
-                </div>
+              {dayNames.map((dayName, index) => (
+                <span key={index} className={styles.sun_575bf373}>
+                  {dayName}
+                </span>
               ))}
             </div>
             <div className={styles.days_grid_177ac34d}>
-              {dayCellsData.map((cell, index) => (
+              {dayCellsData.map((dayNumber, index) => (
                 <DayCell
                   key={index}
-                  selectiontype={cell.selectiontype}
-                  state={cell.state}
-                  datetype={cell.datetype}
                   className={styles.day_cell_400b9d95}
+                  selectiontype="Normal"
+                  state="Enabled"
+                  datetype="Default dates"
                 >
-                  {cell.children}
+                  {dayNumber}
                 </DayCell>
               ))}
             </div>
@@ -91,7 +52,13 @@ export const Calandar = ({ type, className, children }: CalandarProps) => {
         </div>
       );
     default:
-      // Fallback for unknown types or if children are passed directly to the root
-      return <div className={className}>{children}</div>;
+      // Fallback for unknown 'type' values
+      return (
+        <div className={`${styles.calandar_4a7987bf} ${className || ''}`}>
+          <p>Unknown calendar type: {type}</p>
+        </div>
+      );
   }
 };
+
+export default Calandar;

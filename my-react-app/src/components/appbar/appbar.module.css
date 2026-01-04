@@ -1,0 +1,114 @@
+.appbar_64a870a6 {
+
+  background-color: #ffffff;
+  box-shadow: 1px 0px 4px 0px #00000029;
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 20px;
+  font-weight: 300;
+  gap: var(--spacing-24, 24px);
+  height: 836px;
+  line-height: 20px;
+  padding: var(--spacing-16, 16px) var(--spacing-8, 8px) var(--spacing-16, 16px) var(--spacing-8, 8px);
+  width: 96px;
+
+}
+
+.frame_1688d1f6 {
+
+  box-sizing: border-box;
+  display: block;
+  flex-shrink: 0;
+  height: 21px;
+  width: 56px;
+
+}
+
+.vector_678a0d5 {
+
+  box-sizing: border-box;
+
+}
+
+.frame_816493_2a26a196 {
+
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 20px;
+  font-weight: 300;
+  gap: var(--spacing-16, 16px);
+  height: 464px;
+  line-height: 20px;
+  width: 80px;
+
+}
+
+.menu_items_4479f1b {
+
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.frame_814999_43e090f9 {
+
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  gap: 908px;
+  height: 24px;
+  justify-content: center;
+  width: 80px;
+
+}
+
+.menu_items_4c4c7aa5 {
+
+  align-items: center;
+  border-radius: var(--radius-4, 4px);
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 20px;
+  font-weight: 300;
+  gap: var(--spacing-8, 8px);
+  height: 64px;
+  line-height: 20px;
+  padding: var(--spacing-8, 8px);
+  width: 80px;
+
+}
+
+.menu_items_79183586 {
+
+  align-items: center;
+  border-radius: var(--radius-4, 4px);
+  box-sizing: border-box;
+  color: var(--text-subtle);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 20px;
+  font-weight: 300;
+  gap: var(--spacing-8, 8px);
+  height: 64px;
+  line-height: 20px;
+  padding: var(--spacing-8, 8px);
+  width: 80px;
+
+}

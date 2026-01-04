@@ -2,40 +2,41 @@ import React from 'react';
 import styles from './DayCell.module.css';
 
 interface DayCellProps {
-  selectiontype?: 'Normal' | 'Selected' | 'Range' | 'RangeStart' | 'RangeEnd';
-  state?: 'Enabled' | 'Disabled' | 'Hover' | 'Focus';
-  datetype?: 'Default dates' | 'Other month dates';
-  className?: string;
+  selectiontype?: string;
+  state?: string;
+  datetype?: string;
   children?: React.ReactNode;
+  className?: string;
 }
 
-export const DayCell = ({
-  selectiontype = 'Normal',
-  state = 'Enabled',
-  datetype = 'Default dates',
-  className,
+// Map of variant signatures to their corresponding CSS class names.
+// This is derived from the _known_variants in the layout data.
+const variantClassMap = {
+  '{"selectiontype":"Normal","state":"Enabled","datetype":"Default dates"}': styles.day_cell_400b9d95,
+} as const;
+
+export const DayCell: React.FC<DayCellProps> = ({
+  selectiontype = "Normal", // Default value from layout data props
+  state = "Enabled",        // Default value from layout data props
+  datetype = "Default dates", // Default value from layout data props
   children,
-}: DayCellProps) => {
-  let variantClassName: string;
+  className,
+}) => {
+  // Construct a key from the current props to look up the variant class.
+  const currentVariantKey = JSON.stringify({ selectiontype, state, datetype });
 
-  // Construct a key from props to determine the correct variant class
-  const variantKey = `${selectiontype}-${state}-${datetype}`;
-
-  switch (variantKey) {
-    case 'Normal-Enabled-Default dates':
-      variantClassName = styles.day_cell_400b9d95;
-      break;
-    default:
-      // Fallback to the default variant's class name if no specific match
-      variantClassName = styles.day_cell_400b9d95;
-      break;
-  }
+  // Determine the root class name based on the variant.
+  // Fallback to the default class if the specific variant key is not found.
+  const rootClassName = variantClassMap[currentVariantKey as keyof typeof variantClassMap] || styles.day_cell_400b9d95;
 
   return (
-    <div className={`${variantClassName} ${className || ''}`}>
+    <div className={`${rootClassName} ${className || ''}`}>
+      {/* The 'Day' text node */}
       <span className={styles.day_44608e89}>
-        {children || '12'}
+        {children} {/* Rule 1.A: Use children, provide default text */}
       </span>
     </div>
   );
 };
+
+export default DayCell;
